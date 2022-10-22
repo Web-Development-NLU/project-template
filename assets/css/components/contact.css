@@ -1,0 +1,34 @@
+@import "../base/reset_css.css";
+
+.contact-info {
+    width: 30%;
+    color: var(--cta-08);
+}
+.contact-info .big_title {
+    font-size: 26px;
+    font-weight: 500;
+    margin: 0 0 30px 0;
+}
+.contact-info > span {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.7;
+}
+.contact-info .main-content {
+    margin-top: 30px;
+}
+.contact-info .main-content div .icon_contact {
+    float: left;
+    margin-right: 20px;
+}
+.contact-info .main-content div {
+    padding-bottom: 30px;
+}
+.contact-info .main-content div .title_contact {
+    font-size: 16px;
+    font-weight: 400;
+}
+.contact-info .main-content div .infor-contact {
+    font-size: 13px;
+    color: var(--cta-07);
+}

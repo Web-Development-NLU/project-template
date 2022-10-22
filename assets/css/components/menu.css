@@ -1,0 +1,25 @@
+.input-primary {
+    padding: 12px;
+    width: 100%;
+    border: 1px solid var(--cta-02);
+    outline: 1px solid var(--cta-06);
+}
+.input-line {
+    position: relative;
+}
+.input-line input{
+    width: 100%;
+    padding: 12px 12px 12px 0;
+    border: none;
+    border-bottom: 3px solid var(--cta-09);
+    outline: none;
+}
+.input-line span {
+    font-size: 12px;
+    font-weight: 600;
+    position: absolute;
+    top: 12px;
+    right: -10px;
+    color: var(--cta-07);
+    white-space: pre;
+}
