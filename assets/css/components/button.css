@@ -1,0 +1,31 @@
+button {
+  border: none;
+}
+
+button:focus{
+  outline: none;
+}
+
+/* BUTTON ICONS */
+
+.btn-icon {
+  width: 2.5rem;
+  height: 2.5rem;
+  font-size: 1.1rem;
+  line-height: 2.5rem;
+  font-weight: bold;
+  transition: 0.3s;
+}
+/* BUTTON TEXT */
+
+.btn-text {
+  padding: 0.8em 2.5em;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.btn-text-lg {
+  padding: 0.8em 7em;
+  font-weight: 600;
+  transition: 0.3s;
+}
