@@ -1,0 +1,20 @@
+.text-icon-benefit {
+    display: flex;
+}
+.text-icon-benefit .img_benefit img {
+    margin-top: 0.1875em;
+    margin-right: 1.25em;
+    width: 50px;
+}
+.text-icon-benefit .content-benefit {
+    line-height: 1.9rem;
+    width: 300px;
+}
+.text-icon-benefit .content-benefit >h4 {
+    white-space: pre;
+    font-size: 0.875rem;
+}
+.text-icon-benefit .content-benefit >span {
+    font-size: 0.875rem;
+    color: var(--cta-06);
+}

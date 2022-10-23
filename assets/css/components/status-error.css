@@ -1,0 +1,15 @@
+.status-error{
+    text-align: center;
+}
+.status-error> h1{
+    font-size: 300px;
+    margin-bottom: 30px;
+}
+.status-error> h2 {
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+.status-error> span {
+    color: var(--cta-06);
+    font-size: 22px;
+}

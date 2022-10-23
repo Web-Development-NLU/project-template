@@ -1,0 +1,11 @@
+.card-category {
+    padding: 0 1em;
+    text-align: center;
+    background-color: transparent;
+}
+.card-category >h5 {
+    color: var(--cta-01);
+    font-size: 0.85rem;
+    font-weight: 550;
+    margin-top: 1em;
+}

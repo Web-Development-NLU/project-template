@@ -1,2 +1,10 @@
 @import url('./menu.css');
-@import "contact.css";
+@import url("contact.css");
+@import url("./button.css");
+@import url("./filter-btn.css");
+@import url("./pagination.css");
+@import url("./input.css");
+@import url("./status-error.css");
+@import url("./text-icon-benefit.css");
+@import url("./price.css");
+@import url("./card-category.css");

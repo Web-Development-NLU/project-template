@@ -1,0 +1,55 @@
+.input-primary {
+    padding: 0.75rem;
+    width: 100%;
+    border: 1px solid var(--cta-02);
+    outline: 1px solid var(--cta-02);
+}
+.input-primary:focus,.input-secondary:focus,.input-secondary > input:focus {
+    outline: 1px solid var(--cta-06);
+}
+.input-line {
+    position: relative;
+}
+.input-line input{
+    width: 100%;
+    padding: 0.75em 0.75em 0.75em 0;
+    border: none;
+    border-bottom: 3px solid var(--cta-09);
+    outline: none;
+}
+.input-line span {
+    font-size: 0.75em;
+    font-weight: 600;
+    position: absolute;
+    top: 12px;
+    right: -10px;
+    color: var(--cta-07);
+    white-space: pre;
+}
+.input-secondary {
+    position: relative;
+}
+.input-secondary > input {
+    padding: 0.75em;
+    border: 1px solid var(--cta-02);
+    outline: 1px solid var(--cta-02);
+    width: 100%;
+}
+.input-secondary > label {
+    position: absolute;
+    font-size: 0.8125rem;
+    left: 20px;
+    top: -11px;
+    padding: 0.25em;
+    background-color: var(--cta-01);
+}
+.text-area {
+    width: 100%;
+    padding: 0.75em;
+    height: 100px;
+    font-size: 0.875rem;
+}
+.checkbox {
+    font-size: 0.8125rem;
+    color: var(--cta-06);
+}
