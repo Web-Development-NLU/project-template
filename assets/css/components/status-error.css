@@ -3,13 +3,13 @@
 }
 .status-error> h1{
     font-size: 300px;
-    margin-bottom: 30px;
+    margin-bottom: 0.2em;
 }
 .status-error> h2 {
-    margin-bottom: 30px;
-    font-size: 40px;
+    margin-bottom: 0.4em;
+    font-size: 2.5rem;
 }
 .status-error> span {
     color: var(--cta-06);
-    font-size: 22px;
+    font-size: 1.375rem;
 }
