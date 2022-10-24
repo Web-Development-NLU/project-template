@@ -29,3 +29,35 @@ button:focus{
   font-weight: 600;
   transition: 0.3s;
 }
+
+.container #header-btn #btn-icon-sm{
+  background-color: red;
+  width:30px;
+  height:30px;
+  -moz-border-radius: 100px;
+  -webkit-border-radius:100px;
+  color: white;
+}
+.container #header-btn #btn-badge{
+  background-color: gray;
+  color: white;
+  width: 30px;
+  height: 30px;
+  
+}
+.container #header-btn #btn-icon-cb-text{
+  /*background-color: red;*/
+  width:100px;
+  height:30px;
+  -moz-border-radius: 100px;
+  -webkit-border-radius:10px;
+  color: white;
+  background-color: gray;
+}
+.container #header-btn #lg-btn{
+  color: black;
+  height: 50px;
+  width: 500px;
+  font-weight: bold;
+
+}

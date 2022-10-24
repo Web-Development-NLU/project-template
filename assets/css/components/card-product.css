@@ -1,0 +1,33 @@
+#chekout-card-product #infor-pro{
+    float: right;
+    margin-top: 50px;
+}
+#chekout-card-product #infor-pro img{
+    max-width: 100px;
+    height: auto;
+    float: left;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px ;
+    margin:auto;
+}
+.container #chekout-card-product {
+    width: 800px;
+    height: 400px;
+    display: flex;
+}
+.container #chekout-card-product #infor-pro .t{
+    display:inline-flex;
+}
+.container #chekout-card-product #infor-pro .price {
+     display: flex;
+     margin-top: -30px;
+     /* margin-right: 1300px;*/
+ }
+ #chekout-card-product #infor-pro p{
+    /*margin:0px;*/
+    display: inline-flex;
+}
+.container #chekout-card-product .text{
+    color: grey;
+    }

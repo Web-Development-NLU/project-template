@@ -4,12 +4,12 @@ body{
     margin:0px;
 }
 
-.container #chekout-card-product {
+/* .container #chekout-card-product {
     width: 800px;
     height: 400px;
     display: flex;
-}
-#chekout-card-product #infor-pro{
+} */
+/* #chekout-card-product #infor-pro{
     float: right;
     margin-top: 50px;
 }
@@ -21,27 +21,27 @@ body{
     border-style: solid;
     border-width: 2px ;
     margin:auto;
-}
-.container #chekout-card-product #infor-pro .t{
+} */
+/* .container #chekout-card-product #infor-pro .t{
     display:inline-flex;
 }
 .container #chekout-card-product #infor-pro .price {
      display: flex;
      margin-top: -30px;
      /* margin-right: 1300px;*/
- }
+ /* }  */
 
 
-#chekout-card-product #infor-pro p{
+/* #chekout-card-product #infor-pro p{
     /*margin:0px;*/
-    display: inline-flex;
-}
+    /* display: inline-flex; */
+/* } */ 
 
 /*#chekout-card-product #infor-pro .text1{*/
 /*    !*margin:0px;*!*/
 /*    display: inline-flex;*/
 /*}*/
-.container #header-btn #btn-icon-sm{
+/* .container #header-btn #btn-icon-sm{
     background-color: red;
     width:30px;
     height:30px;
@@ -53,55 +53,54 @@ body{
 .container #header-btn #btn-badge{
     background-color: gray;
     color: white;
+     width: 30px;
+    height: 30px;
     
-}
-.container #header-btn #btn-icon-cb-text{
+} */
+/* .container #header-btn #btn-icon-cb-text{
     /*background-color: red;*/
-    width:100px;
+    /* width:100px;
     height:30px;
     -moz-border-radius: 100px;
     -webkit-border-radius:10px;
     color: white;
     background-color: gray;
-}
-.container #header-btn #btn-badge{
-    width: 30px;
-    height: 30px;
-}
-.container #header-btn #lg-btn{
+} */ */
+
+/* .container #header-btn #lg-btn{
     color: black;
     height: 50px;
     width: 500px;
     font-weight: bold;
   
-}
-.container #chekout-card-product .text{
+} */
+/* .container #chekout-card-product .text{
 color: grey;
-}
-.caston-breadcrumbs li{
+} */
+/* .caston-breadcrumbs li{
     list-style: none;
     /*color:white;*/
-    display: inline-flex;
-}
-#card-shop #name{
+    /* display: inline-flex; */
+/* } */ */
+/* #card-shop #name{
 margin-top: -150px;
     margin-left: 170px;
     font-size: 180%;
     /*font-weight: bold;*/
 
-}
-#card-shop a{
+/* } */ */
+/* #card-shop a{
     margin-top: -150px;
     margin-left: 180px;
     font-size: 100%;
     /*font-weight: bold;*/
 
-}
-.caston-breadcrumbs{
+/* } */ */
+/* .caston-breadcrumbs{
     background-color: black;
     color: white;
     width: 100px;
-}
-@import url("./button.css");
-@import url("./filter-btn.css");
+} */
+@import url("./button.css"); 
+ @import url("./filter-btn.css");
 @import url("./pagination.css");

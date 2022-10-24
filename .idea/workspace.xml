@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="87074b8d-158d-484b-988c-44ab77343c1a" name="Changes" comment="coding-component2">
       <changelist_data name="KhanhLy_20130320" email="201303202@st.hcmuaf.edu.vn" date="1666518403000" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/components/button.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/components/button.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/components_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/components_2.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,16 +37,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Lab2_web/project-template&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/Lab2_web/project-template",
+    "list.type.of.created.stylesheet": "CSS",
+    "nodejs_package_manager_path": "npm"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Lab2_web\project-template\assets\imgs\icons" />
@@ -80,6 +84,7 @@
       <workItem from="1666501212203" duration="18811000" />
       <workItem from="1666591625574" duration="1581000" />
       <workItem from="1666593558430" duration="240000" />
+      <workItem from="1666607613672" duration="2615000" />
     </task>
     <task id="LOCAL-00001" summary="coding-component2">
       <created>1666505177997</created>
