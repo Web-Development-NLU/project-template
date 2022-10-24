@@ -1,4 +1,5 @@
 @import url('./menu.css');
+
 body{
     margin:0px;
 }
@@ -47,7 +48,12 @@ body{
     -moz-border-radius: 100px;
     -webkit-border-radius:100px;
     color: white;
-
+    
+}
+.container #header-btn #btn-badge{
+    background-color: gray;
+    color: white;
+    
 }
 .container #header-btn #btn-icon-cb-text{
     /*background-color: red;*/
@@ -56,6 +62,7 @@ body{
     -moz-border-radius: 100px;
     -webkit-border-radius:10px;
     color: white;
+    background-color: gray;
 }
 .container #header-btn #btn-badge{
     width: 30px;
@@ -65,6 +72,8 @@ body{
     color: black;
     height: 50px;
     width: 500px;
+    font-weight: bold;
+  
 }
 .container #chekout-card-product .text{
 color: grey;
@@ -88,4 +97,11 @@ margin-top: -150px;
     /*font-weight: bold;*/
 
 }
-
+.caston-breadcrumbs{
+    background-color: black;
+    color: white;
+    width: 100px;
+}
+@import url("./button.css");
+@import url("./filter-btn.css");
+@import url("./pagination.css");
