@@ -1,6 +1,6 @@
 
 .contact-info {
-    width: 30%;
+    width: 40%;
     color: var(--cta-08);
 }
 .contact-info .big_title {
@@ -31,3 +31,13 @@
     font-size: 0.8125rem;
     color: var(--cta-07);
 }
+@media only screen and (max-width: 767px){
+    .contact-info {
+        width: 100%;
+    }
+    .contact-info .main-content div .icon_contact{
+        float: none;
+        padding-bottom: 0.8em;
+    }
+}
+
