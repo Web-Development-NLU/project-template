@@ -29,6 +29,10 @@ button:focus{
   font-weight: 600;
   transition: 0.3s;
 }
+.header-btn img{
+  max-width: 0.1ewm;
+height: auto;
+}
  .header-btn .btn-icon-sm{
   background-color: var(--ctb-09);
   width:0.3rem;
@@ -36,6 +40,7 @@ button:focus{
   -moz-border-radius: 10rem;
   -webkit-border-radius:10rem;
   color: var(--cta-01);
+
 }
  .header-btn .btn-badge{
   background-color: var(--cta-05);
@@ -52,13 +57,10 @@ button:focus{
   color: var(--cta-01);
   background-color: var(--cta-05);
 }
-.btn-icon-cb-text img{
-  image-rendering: 0.1rem;
-  image-orientation: 0.1rem;
-}
+
  .header-btn .lg-btn{
   color: var(--cta-09);
-  height: 0.5rem;
+  height: 2rem;
   width: 50rem;
   font-weight: bold;
 
