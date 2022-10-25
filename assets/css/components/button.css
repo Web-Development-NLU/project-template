@@ -29,7 +29,7 @@ button:focus{
   font-weight: 600;
   transition: 0.3s;
 }
- #header-btn #btn-icon-sm{
+ .header-btn .btn-icon-sm{
   background-color: var(--ctb-09);
   width:0.3rem;
   height:0.3rem;
@@ -37,22 +37,26 @@ button:focus{
   -webkit-border-radius:10rem;
   color: var(--cta-01);
 }
- #header-btn #btn-badge{
+ .header-btn .btn-badge{
   background-color: var(--cta-05);
   color: var(--cta-01);
   width: 0.3rem;
   height: 0.3rem;
   
 }
- #header-btn #btn-icon-cb-text{
-  width:100rem;
+ .header-btn .btn-icon-cb-text{
+  width:0.3rem;
   height:0.3rem;
   -moz-border-radius: 10rem;
   -webkit-border-radius:0.1rem;
   color: var(--cta-01);
   background-color: var(--cta-05);
 }
- #header-btn #lg-btn{
+.btn-icon-cb-text img{
+  image-rendering: 0.1rem;
+  image-orientation: 0.1rem;
+}
+ .header-btn .lg-btn{
   color: var(--cta-09);
   height: 0.5rem;
   width: 50rem;
