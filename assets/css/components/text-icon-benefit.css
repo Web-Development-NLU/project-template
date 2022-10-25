@@ -1,20 +1,32 @@
 .text-icon-benefit {
     display: flex;
+    padding: 2.8125rem 1.25rem 2.8125rem 2.3125rem;
+    border: 2px solid var(--cta-03);
+    /*font-family: var(--f-poppins);*/
+}
+.text-icon-benefit .img_benefit {
+    line-height: 1.5rem;
+    margin-right: 0.9375rem;
 }
 .text-icon-benefit .img_benefit img {
-    margin-top: 0.1875em;
-    margin-right: 1.25em;
     width: 50px;
 }
 .text-icon-benefit .content-benefit {
     line-height: 1.9rem;
     width: 300px;
 }
-.text-icon-benefit .content-benefit >h4 {
-    white-space: pre;
+.text-icon-benefit .content-benefit >h3 {
+    letter-spacing: 2.7px;
     font-size: 0.875rem;
+    font-weight: 600;
+    font-family: var(--f-poppins);
+    text-transform: uppercase;
+    line-height: 1.25rem;
+    margin-bottom: 0.3125rem;
 }
 .text-icon-benefit .content-benefit >span {
     font-size: 0.875rem;
     color: var(--cta-06);
+    font-weight: 400;
+    line-height: 1.75rem;
 }
