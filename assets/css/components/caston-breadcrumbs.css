@@ -4,7 +4,7 @@
     display: inline-flex;
 }
 .caston-breadcrumbs{
-    background-color: black;
-    color: white;
-    width: 100px;
+    background-color: var(--cta-09);
+    color: var(--cta-09)
+    /* width: 10rem; */
 }
