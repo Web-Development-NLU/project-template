@@ -5,6 +5,8 @@
     <link rel="stylesheet" href="../assets/css/components/button.css">
     <link rel="stylesheet" href="../assets/css/components/caston-breadcrumbs.css">
     <link rel="stylesheet" href="../assets/css/components/card-shop.css">
+    <link rel="stylesheet" href="../assets/css/components/checkout-card-product.css">
+    <link rel="stylesheet" href="../assets/css/components/section-input1.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,25 +23,27 @@
 <div class="chekout-card-product">
     <img width="300px" height="300px" role="presentation" src="../assets/imgs/icons/img_Char.jpg">
    <div class="infor-pro">
-    <p class="name-prod" class="t">Beetle chair x 1 &nbsp;&nbsp; 200.00$</p>
+    <span class="name-prod" class="t">Beetle chair x 1 &nbsp;&nbsp; 200.00$</span>
        <br>
     <p class="text" id="color">Color :</p>
-    <p class="color">Beign</p>
+    <span class="color">Beign</span>
     <p class="text" id="Partten">Partten :</p>
-    <p class="name-pro">wood</p>
+    <span class="name-pro">wood</span>
     <p class="text">Size:</p>
-    <p class="Size">Large</p>
+    <span class="Size">Large</span>
    </div>
 </div>
     <div class="header-btn">
-        <a href="#"><button class="btn-icon-sm" type="button"> <img src="../assets/imgs/icons/search.png"></i></button></a>
-        <br>
-        <button class="btn-badge" type="button"><i class="fa fa-shopping-bag" aria-hidden="true"></i></button>
-        <br>
-        <button class="btn-icon-cb-text" type="button"><img src="../assets/imgs/icons/user.jpg"> Login</button>
+        <a href="#"><button class="btn-icon-sm" type="button"><i class="bi bi-search"></i></button></a>
         <br>
         <br>
-        <button class="lg-btn"><img src="../assets/imgs/icons/user.jpg"> RETURNING CUSTOMER ?<a href="#" STYLE="color: black"> LICK HERE TO LOGIN</a></button>
+        <a href="#"><button class="btn-badge" type="button"><i class="bi bi-bag"></i></button></a>
+        <br>
+        <br>
+        <a href=#><button class="btn-icon-cb-text" ><i class="bi bi-person"></i> Login</button></a>
+        <br>
+        <br>
+        <button class="lg-btn"><i class="bi bi-person"></i> RETURNING CUSTOMER ?<a href="#" STYLE="color: var(--cta-09);"> LICK HERE TO LOGIN</a></button>
     </div>
 
     <section class="section-input">
@@ -66,13 +70,17 @@
 <br>
 <div class="caston-breadcrumbs"><div role="navigation" aria-label="Breadcrumbs" class="breadcrumb-trail breadcrumbs">
            <span itemprop="name">Home</span>
-             <i class="fa fa-chevron-right" aria-hidden="true"></i>
+           <i class="bi bi-chevron-right"></i>
+
         <span itemprop="item"><span itemprop="name">About</span></span><meta itemprop="position" content="2"></li></ul></div></div>
 <div class="card-shop">
     <img src="../assets/imgs/icons/img_Shelving.jpg">
     <div class="name">Storage</div>
     <a href="#">Shop now</a>
 </div>
-<!-- <div><a href="./components/components_2.html">Buttons</a></div> -->
+<script src="./assets/js/index.js"></script>
+  <script src="https://kit.fontawesome.com/1516c7732a.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
 </body>
 </html>

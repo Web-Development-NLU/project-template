@@ -29,10 +29,7 @@ button:focus{
   font-weight: 600;
   transition: 0.3s;
 }
-.header-btn img{
-  max-width: 0.1ewm;
-height: auto;
-}
+
  .header-btn .btn-icon-sm{
   background-color: var(--ctb-09);
   width:1.6rem;
@@ -42,20 +39,21 @@ height: auto;
   color: var(--cta-01);
 
 }
-.btn-icon-sm img{
-  width: 1.2rem;
-  height: 1.2rem;
-  color: var(--cta-01);
-  background-color: var(--ctb-09);
-  -moz-border-radius: 10rem;
-  -webkit-border-radius:10rem;
-}
+
  .header-btn .btn-badge{
   background-color: var(--cta-05);
   color: var(--cta-01);
-  width: 0.3rem;
-  height: 0.3rem;
-  
+  width:1.6rem;
+  height:1.6rem;
+  cursor: pointer;
+}
+.header-btn .btn-icon-cb-text:hover {
+  color: var(--ctb-09);
+ 
+}
+.header-btn .btn-badge:hover{
+  color: var(--ctb-09);
+ 
 }
  .header-btn .btn-icon-cb-text{
   width:8rem;
@@ -63,12 +61,10 @@ height: auto;
   -moz-border-radius: 10rem;
   -webkit-border-radius:5rem;
   color: var(--cta-01);
+  cursor: pointer;
   background-color: var(--cta-05);
 }
- .btn-icon-cb-text img{
-  width:1.5rem;
-  height:1.5rem;
-}
+
 
  .header-btn .lg-btn{
   color: var(--cta-09);
@@ -76,8 +72,4 @@ height: auto;
   width: 30rem;
   font-weight: bold;
 
-}
-.lg-btn img{
-  width:1.5rem;
-  height:1.5rem;
 }

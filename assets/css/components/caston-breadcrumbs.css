@@ -5,6 +5,8 @@
 }
 .caston-breadcrumbs{
     background-color: var(--cta-09);
-    color: var(--cta-09)
-    /* width: 10rem; */
+    color: var(--cta-01);
+    width: 10rem;
+    text-align: center;
+    cursor: pointer;
 }

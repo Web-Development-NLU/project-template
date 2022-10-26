@@ -1,0 +1,16 @@
+.chekout-card-product {
+    width: 80rem;
+    height: 40rem;
+    display: flex;
+}
+.chekout-card-product .infor-pro{
+    float: right;
+    margin-top: 7rem;
+   
+}
+
+.chekout-card-product .infor-pro p{
+    display: inline-flex;
+    color: var(--cta-01);
+   
+}
