@@ -3,7 +3,7 @@
 @import url(',/components/button.css');
 @import url(',/components/card-shop.css');
 @import url(',/components/card-product.css');
-@import url('/components/caston-breadcrumb.css');
+@import url(',/components/caston-breadcrumb.css');
 
 * {
   margin: 0;

@@ -1,8 +1,9 @@
 
 .card-shop a{
-    /* margin-top: -15rem; */
+    margin-top: -30rem;
     margin-left: 25rem;
     font-size: 100%;
+    color: var(--cta-09);
 }
 .card-shop .name{
     margin-top: 0.1rem;
@@ -10,6 +11,6 @@
         font-size: 180%;
     }
     .card-shop img{
-        width: 43rem;
-        height: 43rem;
+        width: 40rem;
+        height: 40rem;
     }
