@@ -10,6 +10,7 @@
     height: 100%;
     object-fit: cover;
     margin-bottom: 0.625rem;
+    cursor: pointer;
 }
 .card-category >h5{
     margin: 0;
@@ -30,4 +31,12 @@
 }
 .card-category:hover >h5 a{
     border-color: var(--cta-01);
+}
+@media only screen and (max-width: 767px){
+    .card-category .img-category img {
+        max-width: 50px;
+        max-height: 50px;
+        margin-bottom: 0;
+        cursor: pointer;
+    }
 }

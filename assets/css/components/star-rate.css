@@ -12,7 +12,3 @@
     width: 12px;
     height: 12px;
 }
-.star-rate span.checked-rate > svg{
-    fill: var(--ctb-04);
-    stroke: transparent;
-}
