@@ -1,0 +1,12 @@
+.breadcrumb {
+  background: transparent;
+  font-weight: 600;
+}
+
+.breadcrumb .breadcrumb-item::before {
+  color: var(--cta-02);
+}
+
+.breadcrumb .breadcrumb-item a:hover {
+  color: var(--ctd-02);
+}

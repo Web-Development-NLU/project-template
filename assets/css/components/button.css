@@ -29,3 +29,48 @@ button:focus{
   font-weight: 600;
   transition: 0.3s;
 }
+
+/* BUTTON ICON COMBINE TEXT */
+
+.btn-icon-cb-text {
+  padding: 0.5rem 2rem;
+  background: transparent;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: var(--f-poppins);
+}
+
+.btn-icon-cb-text a:hover {
+  color: var(--cta-01);
+  text-decoration: none;
+}
+
+.btn-icon-cb-text .btn-content {
+  margin-left: 5px;
+  letter-spacing: 1px;
+}
+
+/* BUTTON BADGE */
+
+.btn-badge {
+  background: transparent;
+  font-weight: bold;
+}
+
+.btn-badge a:hover {
+  color: var(--cta-01);
+}
+
+/* LINK */
+
+.btn-link {
+  font-weight: bold;
+  font-size: 13px;
+  transition: 0.3s;
+  cursor: pointer;
+  letter-spacing: 1px;
+}
+
+.btn-link:hover {
+  text-decoration: none;
+}
