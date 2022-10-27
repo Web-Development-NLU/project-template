@@ -67,7 +67,7 @@ button:focus{
 
 .btn-link {
   font-weight: bold;
-  font-size: 13px;
+  font-size: 0.8em;
   transition: 0.3s;
   cursor: pointer;
   letter-spacing: 1px;
