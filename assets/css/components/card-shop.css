@@ -34,6 +34,7 @@
   left: 0;
   right: 0;
   margin: 0 auto;
+  z-index: 0;
 }
 
 .card-shop_text .card-shop_title {
