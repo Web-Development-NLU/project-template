@@ -15,6 +15,10 @@
   outline-offset: -2px;
 }
 
+.bd-white-02 {
+  border: 2px solid var(--cta-01);
+}
+
 .bd-white {
   border: 1px solid var(--cta-02);
 }
@@ -47,10 +51,7 @@
 
 .hover-text-red:hover {
   color: var(--ctb-09);
-}
-
-body {
-  background: var(--cta-03);
+  transition: 0.3s;
 }
 
 /* HOVER TO BORDER BLACK */

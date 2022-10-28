@@ -1,14 +1,31 @@
 
 .star-rate {
-    width: 80px;
     font-size: 0.6875rem;
     min-height: 12px;
     padding-top: 1rem;
+    display: flex;
+    justify-content: left;
+    flex-direction: row-reverse;
+    width: 100%;
+    position: relative;
 }
-.star-rate span svg {
-    stroke: var(--cta-05);
-    fill: var(--cta-01);
-    font-size: 0.6875rem;
-    width: 12px;
-    height: 12px;
+.star-rate span {
+    position: relative;
+    display: flex;
+    width: 7px;
+    height: 14px;
+    justify-content: center;
+    cursor: pointer;
+    overflow: hidden;
+}
+.star-rate span i {
+    position: absolute;
+    font-size: 11px;
+    left: 1px;
+    color: var(--cta-03);
+}
+
+.star-rate span:nth-child(2n+1) i{
+    right: 1px;
+    left: initial;
 }
