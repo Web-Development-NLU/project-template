@@ -1,13 +1,25 @@
 
 const allStarRates = document.querySelectorAll(".star-rate");
-function  expectRate(){
-    for(let starRate of allStarRates){
-        let rate = starRate.getAttribute("data-rate");
-        let stars = starRate.getElementsByTagName("i");
-        for(let i=stars.length-1; i> stars.length-rate*2-1; i--){
-            stars[i].style.fontFamily = "fontAwesome";
-            stars[i].style.color = "var(--ctb-04)";
-        }
+
+allStarRates.forEach((rate, index) => {
+    const rate_point = parseFloat(rate.getAttribute("data-rate"));
+    let star_fill = Math.floor(rate_point);
+    const part_star = rate_point - star_fill;
+
+    let i = 0;
+    while( i < star_fill) {
+        rate.innerHTML += '<span><i class="fa-solid fa-star"></i></span>'
+        i++;
     }
-}
- expectRate();
+
+    if(part_star >= 0.5) {
+        rate.innerHTML += '<span><i class="fa-solid fa-star-half-stroke"></i></span>'
+        star_fill++;
+    }
+
+    let j = 0;
+    while(j < (5 - star_fill)) {
+        rate.innerHTML += '<span class="no-point"><i class="fa-regular fa-star"></i></span>'
+        j++
+    }
+})

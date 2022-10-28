@@ -1,31 +1,12 @@
-
 .star-rate {
     font-size: 0.6875rem;
-    min-height: 12px;
-    padding-top: 1rem;
-    display: flex;
-    justify-content: left;
-    flex-direction: row-reverse;
-    width: 100%;
-    position: relative;
+    color: var(--ctb-04);
 }
-.star-rate span {
-    position: relative;
-    display: flex;
-    width: 7px;
-    height: 14px;
-    justify-content: center;
-    cursor: pointer;
-    overflow: hidden;
-}
-.star-rate span i {
-    position: absolute;
-    font-size: 11px;
-    left: 1px;
+
+.star-rate .no-point {
     color: var(--cta-03);
 }
 
-.star-rate span:nth-child(2n+1) i{
-    right: 1px;
-    left: initial;
+.star-rate span {
+    margin-right: 3px;
 }
