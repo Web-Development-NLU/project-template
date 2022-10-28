@@ -1,6 +1,7 @@
 .star-rate {
     font-size: 0.6875rem;
     color: var(--ctb-04);
+    width: fit-content;
 }
 
 .star-rate .no-point {
