@@ -15,7 +15,8 @@
 
 .input-line {
     position: relative;
-    max-width: 600px;
+    /*max-width: 600px;*/
+    width: 100%;
     display: flex;
     background-color: var(--cta-01);
     transition: all 0.3s;
@@ -49,13 +50,20 @@
     letter-spacing: 3px;
     padding-bottom: 0.4375rem;
     display: flex;
+    transition: all 0.3s;
 }
-.input-line >button svg {
+
+.input-line >button:hover {
+    border-color: var(--ctb-10);
+}
+.input-line >button i {
     width: 1em;
     height: 1em;
     position: relative;
-    top: 5px;
+    top: 3px;
     font-size: 0.9167em;
+    font-weight: 600;
+    margin-left: 3px;
 }
 .input-secondary {
     position: relative;

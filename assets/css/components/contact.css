@@ -35,7 +35,8 @@
     font-weight: 400;
     line-height: 1em;
 }
-.contact-info .main-content div .icon_contact >span svg {
+
+.contact-info .main-content div .icon_contact >span i {
     width: 1em;
     height: 1em;
     max-width: 100%;
@@ -43,7 +44,6 @@
     position: relative;
     top: 5px;
 }
-
 .contact-info .main-content> div {
     padding-bottom: 1.5625rem;
     display: flex;
@@ -78,7 +78,7 @@
     .contact-info .main-content> div{
         display: block;
     }
-    .contact-info .main-content div .icon_contact >span svg{
+    .contact-info .main-content div .icon_contact >span i{
         top: 0;
         margin-bottom: 0.55rem;
     }
