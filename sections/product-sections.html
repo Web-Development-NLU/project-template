@@ -15,79 +15,171 @@
   <title>Document</title>
 </head>
 <body>
-  <menu class="head_top menu-white sticky-menu">
-    <div class="container-fluid container_menu">
-      <div class="row">
-        <div id="menu_btn-responsive" class="menu_btn-responsive col"><i class="fa-solid fa-bars"></i></div>
-        <ul class="menu_list col">
-          <li class="menu_list_item"><a href="#">Home</a></li>
-          <li class="menu_list_item"><a href="#">Products</a></li>
-          <li class="menu_list_item"><a href="#">About Us</a> </li>
-          <li class="menu_list_item"><a href="#">Contact</a></li>
-          <li class="menu_list_item hidden_item"><a href="#">
-            <i class="fa-regular fa-user action-icon color-red"></i>
-            <span class="btn-content poppins">Login</span>
-          </a></li>
-        </ul>
-        <div class="menu_logo col">
-          <h2><a class="poppins" href="#">FURNITURE</a></h2>
+  <div id="container">
+    <menu class="head_top menu-white sticky-menu">
+      <div class="container-fluid container_menu">
+        <div class="row">
+          <div id="menu_btn-responsive" class="menu_btn-responsive col"><i class="fa-solid fa-bars"></i></div>
+          <ul class="menu_list col">
+            <li class="menu_list_item"><a href="#">Home</a></li>
+            <li class="menu_list_item"><a href="#">Products</a></li>
+            <li class="menu_list_item"><a href="#">About Us</a> </li>
+            <li class="menu_list_item"><a href="#">Contact</a></li>
+            <li class="menu_list_item hidden_item"><a href="#">
+              <i class="fa-regular fa-user action-icon color-red"></i>
+              <span class="btn-content poppins">Login</span>
+            </a></li>
+          </ul>
+          <div class="menu_logo col">
+            <h2><a class="poppins" href="#">FURNITURE</a></h2>
+          </div>
+          <ul class="menu_action col">
+            <li class="menu_search menu_action_item"><a href="#">
+              <button class="btn-icon bgr-red br-50 color-white"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </a></li>
+      
+            <li class="menu_login menu_action_item">
+              <button class="btn-icon-cb-text bd-white-02 rounded-pill">
+                <a href="#" class="color-white">
+                  <i class="fa-regular fa-user action-icon"></i>
+                  <span class="btn-content poppins">Login</span>
+                </a>
+              </button>
+            </li>
+      
+            <li class="menu_cart menu_action_item">
+              <button class="btn-badge">
+                <a href="#" class="color-white">
+                  <i class="bi bi-bag"></i>
+                  <span class="badge">4</span>
+                </a>  
+              </button>
+            </li>
+          </ul>
         </div>
-        <ul class="menu_action col">
-          <li class="menu_search menu_action_item"><a href="#">
-            <button class="btn-icon bgr-red br-50 color-white"><i class="fa-solid fa-magnifying-glass"></i></button>
-          </a></li>
-    
-          <li class="menu_login menu_action_item">
-            <button class="btn-icon-cb-text bd-white-02 rounded-pill">
-              <a href="#" class="color-white">
-                <i class="fa-regular fa-user action-icon"></i>
-                <span class="btn-content poppins">Login</span>
-              </a>
-            </button>
-          </li>
-    
-          <li class="menu_cart menu_action_item">
-            <button class="btn-badge">
-              <a href="#" class="color-white">
-                <i class="bi bi-bag"></i>
-                <span class="badge">4</span>
-              </a>  
-            </button>
-          </li>
-        </ul>
+      </div>
+    </menu>
+    <div class="head-bottom-breadcrumb">
+      <div aria-label="breadcrumb">
+        <ol class="breadcrumb color-black">
+          <li class="breadcrumb-item poppins" aria-current="page"><a href="#" class="color-black">Home</a></li>
+          <li class="breadcrumb-item poppins" aria-current="page">About</li>
+        </ol>
       </div>
     </div>
-  </menu>
-  <div class="head-bottom-breadcrumb">
-    <div aria-label="breadcrumb">
-      <ol class="breadcrumb color-black">
-        <li class="breadcrumb-item poppins" aria-current="page"><a href="#" class="color-black">Home</a></li>
-        <li class="breadcrumb-item poppins" aria-current="page">About</li>
-      </ol>
-    </div>
-  </div>
 
-  <div class="product-container container-fluid">
-    <div class="product row">
-      <div class="product-images col-md-12 col-lg-7">
-        <div class="product-gallery">
-          <div class="product-gallery-item">
-            <img src="https://caston.familab.net/wp-content/uploads/2021/09/product_montana_collection_read_burma_plinthh3_front_ns_2.jpg" alt="">
-            <span class="gallery-num">1/2</span>
+    <div class="product-container container-fluid">
+      <div class="product row">
+        <div class="product-images col-md-12 col-lg-7">
+          <div class="product-gallery">
+            <div class="product-gallery-item">
+              <img src="https://caston.familab.net/wp-content/uploads/2021/09/product_montana_collection_read_burma_plinthh3_front_ns_2.jpg" alt="">
+              <span class="gallery-num">1/2</span>
+            </div>
+            <div class="product-gallery-item">
+              <img src="https://caston.familab.net/wp-content/uploads/2021/09/product_montana_read_yellow.jpg" alt="">
+              <span class="gallery-num">2/2</span>
+            </div>
           </div>
-          <div class="product-gallery-item">
-            <img src="https://caston.familab.net/wp-content/uploads/2021/09/product_montana_read_yellow.jpg" alt="">
-            <span class="gallery-num">2/2</span>
+          <div class="gallery-action">
+            <div class="gallery-action-item"><img src="https://caston.familab.net/wp-content/uploads/2021/09/product_montana_collection_read_burma_plinthh3_front_ns_2.jpg" alt=""></div>
+            <div class="gallery-action-item"><img src="https://caston.familab.net/wp-content/uploads/2021/09/product_montana_read_yellow.jpg" alt=""></div>
           </div>
         </div>
-        <div class="gallery-action">
-          <div class="gallery-action-item"><img src="https://caston.familab.net/wp-content/uploads/2021/09/product_montana_collection_read_burma_plinthh3_front_ns_2.jpg" alt=""></div>
-          <div class="gallery-action-item"><img src="https://caston.familab.net/wp-content/uploads/2021/09/product_montana_read_yellow.jpg" alt=""></div>
+      
+        <div class="product-detail col col-lg-4">
+          <div class="product_rate-point">
+            <div class="star-rate" data-rate="4"></div>
+            <div class="rate-number">(4 reviews)</div>
+          </div>
+          <div class="product_name poppins">
+            <h2>Read Bookcase</h2>
+          </div>
+          <div class="product_price">210.00$</div>
+          <div class="product_description">
+            <p>Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+          </div>
+          <form action="">
+            <div class="product_options">
+              <div class="gallery-action product_options-choice">
+                <div class="product_option_title">Color:</div>
+                <div class="input-radio rd-yellow">
+                  <label>
+                    <input type="radio" name="color">
+                    <div class="radio-bg"></div>
+                  </label>
+                </div>
+                <div class="input-radio rd-red">
+                  <label>
+                    <input type="radio" name="color">
+                    <div class="radio-bg"></div>
+                  </label>
+                </div>
+              </div>
+
+              <div class="product_pattern product_options-choice">
+                <div class="product_option_title">Pattern:</div>
+                <div class="input-radio rd-yellow">
+                  <label>
+                    <input type="radio" name="pattern">
+                    <div class="radio-bg"></div>
+                  </label>
+                </div>
+                <div class="input-radio rd-red">
+                  <label>
+                    <input type="radio" name="pattern">
+                    <div class="radio-bg"></div>
+                  </label>
+                </div>
+              </div>
+
+              <div class="product_size product_options-choice">
+                <div class="product_option_title">Size:</div>
+                <div class="input-radio-text">
+                  <label>
+                    <input type="radio" name="size">
+                    <div class="radio-btn">Small</div>
+                  </label>
+                </div>
+                <div class="input-radio-text">
+                  <label>
+                    <input type="radio" name="size">
+                    <div class="radio-btn">Large</div>
+                  </label>
+                </div>
+              </div>
+            </div>
+
+            <div class="product_action row">
+              <div class="col-9 col-lg">
+                <a href="#"><button class="btn-text-lg bgr-black hover-bg-red">ADD TO CART</button></a>
+              </div>
+              <div class="product_number col-3 col-sm-2 col-lg-3">
+                <input type="number" class="input-number" value="1">
+              </div>
+            </div>
+          </form>
+          <div class="product_btn-add-wishlist">
+            <div class="wishlist-btn-icon"><i class="fa-regular fa-heart"></i></div>
+            <div class="wishlist-title">Add to wishlist</div>
+          </div>
+          <div class="product_info">
+            <div class="product_info-item">
+              <div class="product_info-type">SKU:</div>
+              <div class="product_info-name">BED1081</div>
+            </div>
+            <div class="product_info-item">
+              <div class="product_info-type">Category:</div>
+              <div class="product_info-name">Storage</div>
+            </div>
+          </div>
+          <div class="action-share-social">
+            <span class="title">Share:</span>
+            <a href="#"><button class="social-item hover-text-red br-50"><i class="fa-brands fa-facebook-f"></i></button></a>
+            <a href="#"><button class="social-item hover-text-red br-50"><i class="fa-brands fa-twitter"></i></button></a>
+
+          </div>
         </div>
-      </div>
-    
-      <div class="product-detail col">
-        <h1>title</h1>
       </div>
     </div>
   </div>

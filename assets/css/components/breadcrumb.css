@@ -10,7 +10,7 @@
 }
 
 .breadcrumb .breadcrumb-item::before {
-  color: var(--cta-02);
+  color: var(--cta-09);
 }
 
 .breadcrumb .breadcrumb-item:not(:first-child)::before {
