@@ -57,6 +57,7 @@ button:focus{
 .btn-badge {
   background: transparent;
   font-weight: bold;
+  font-size: 1rem;
 }
 
 .btn-badge a:hover {

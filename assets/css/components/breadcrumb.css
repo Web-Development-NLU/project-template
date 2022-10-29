@@ -1,12 +1,22 @@
 .breadcrumb {
   background: transparent;
-  font-weight: 600;
+  font-weight: 400;
+  font-family: var(--f-poppins);
+}
+
+.breadcrumb a {
+  font-family:  var(--f-poppins);
+  transition: 0.3s;
 }
 
 .breadcrumb .breadcrumb-item::before {
   color: var(--cta-02);
 }
 
+.breadcrumb .breadcrumb-item:not(:first-child)::before {
+  content: ">";
+}
+
 .breadcrumb .breadcrumb-item a:hover {
-  color: var(--ctd-02);
+  color: var(--ctb-09);
 }
