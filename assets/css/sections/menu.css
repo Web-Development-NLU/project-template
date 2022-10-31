@@ -102,7 +102,7 @@ menu .menu_list-search {
   font-size: 1rem;
 }
 
-.search-bar {
+menu ~ .search-bar {
   display: none;
   position: absolute;
   inset: 0;
@@ -115,7 +115,7 @@ menu .menu_list-search {
   background: var(--cta-01);
 }
 
-header .display-search-bar {
+header menu ~ .display-search-bar {
   display: block;
 }
 
