@@ -19,14 +19,16 @@ button:focus{
 /* BUTTON TEXT */
 
 .btn-text {
-  padding: 0.8em 0;
+  padding: 0.8rem 0;
   width: 100%;
   font-weight: 600;
   transition: 0.3s;
+  font-size: 0.875rem;
+  letter-spacing: 2px;
 }
 
 .btn-text-lg {
-  padding: 0.8em 0;
+  padding: 0.8rem 0;
   width: 100%;
   font-weight: 600;
   transition: 0.3s;
