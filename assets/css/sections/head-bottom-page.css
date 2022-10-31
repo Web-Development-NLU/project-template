@@ -33,6 +33,32 @@
   margin-top: 10px;
 }
 
+.head_bottom-shop {
+  background: url("https://caston.familab.net/wp-content/uploads/2021/11/shop_banner.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 465px;
+  width: 100%;
+  position: relative;
+}
+
+.head_bottom-shop .head_bottom-content {
+  max-width: 800px;
+  height: fit-content;
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.head_bottom-shop .head_bottom-content .head_bottom-title h1{
+  font-size: 2.5em;
+  font-weight: 400;
+  margin-bottom: 1em;
+}
+
 @media screen and (max-width: 767px) {
   .head-bottom-page {
     font-size: 10px;
@@ -40,5 +66,13 @@
 
   .head-bottom-page .breadcrumb {
     font-size: 13px;
+  }
+
+  .head_bottom-shop {
+    height: 250px;
+  }
+
+  .head_bottom-shop .head_bottom-content{
+    font-size: 10px;
   }
 }

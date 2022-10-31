@@ -7,7 +7,7 @@ if(gallery) {
     controls: false,
     mouseDrag: true,
     navContainer: ".gallery-action",
-    respnsive: {
+    responsive: {
       991: {
         nav: false
       }
