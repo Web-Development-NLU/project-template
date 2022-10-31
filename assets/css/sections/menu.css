@@ -93,7 +93,34 @@ menu .menu_list .hidden_item {
   top: 0;
 }
 
+menu .menu_list-search {
+  width: 90%;
+}
+
+.menu_list-search input,
+.menu_list-search button {
+  font-size: 1rem;
+}
+
+.search-bar {
+  display: none;
+  position: absolute;
+  inset: 0;
+  top: 100px;
+  width: 100%;
+  z-index: 1;
+  text-align: center;
+  height: fit-content;
+  padding: 50px;
+  background: var(--cta-01);
+}
+
+header .display-search-bar {
+  display: block;
+}
+
 @media screen and (max-width: 1024px) {
+
   menu {
     border-bottom: 1px solid var(--cta-05);
     padding: 1rem 0;
@@ -104,7 +131,7 @@ menu .menu_list .hidden_item {
 
   menu .menu_list {
     position: absolute;
-    top: 65px;
+    top: 90px;
     flex-direction: column;
     margin: 0;
     height: 100vh;
@@ -130,8 +157,16 @@ menu .menu_list .hidden_item {
 }
 
 @media screen and (max-width: 767px) {
+  header menu ~ div.search-bar {
+    display: none;
+  }
+  
   menu {
     font-size: 13px;
+  }
+
+  menu .menu_list {
+    top: 65px;
   }
 
   menu .menu_action .menu_search button {
