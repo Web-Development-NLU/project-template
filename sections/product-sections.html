@@ -182,6 +182,130 @@
         </div>
       </div>
     </div>
+
+    <div class="tabs-container">
+      <div class="tabs-info-product container-fluid" id="tab-parent">
+        <div class="tab-info-product_list nav nav-tabs" role="tablist">
+          <div class="nav-item tab-item active" id="tab-description" role="tab" data-toggle="tab" data-target="#content-des" aria-controls="content-des" aria-selected="true">DESCRIPTON</div>
+          <div class="nav-item tab-item" id="tab-info" role="tab" data-toggle="tab" data-target="#content-info" aria-controls="content-info" aria-selected="false">ADDITIONAL INFORMATION</div>
+          <div class="nav-item tab-item" id="tab-reviews" role="tab" data-toggle="tab" data-target="#content-reviews" aria-controls="content-reviews" aria-selected="false">REVIEWS <span class="reviews-number">(4)</span></div>
+        </div>
+  
+        <div class="content-list tab-content">
+          <div id="content-des" class="tab-pane fade" role="tabpanel" aria-labelledby="tab-description">
+            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, 
+            tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. </p>
+            <p>Lorem ipsum was conceived as filler text, formatted in a certain way to enable the presentation of graphic elements in documents, without the need
+             for formal copy. Using Lorem Ipsum allows designers to put together layouts and the form of the content before the content has been created, giving 
+             the design and production process more freedom. </p>
+          </div>
+
+          <div id="content-info" class="tab-pane fade" role="tabpanel" aria-labelledby="tab-info">
+            <table class="table table-bordered">
+              <tr>
+                <th>Dimensions</th>
+                <td>30 × 139.2 × 211.8 cm</td>
+              </tr>
+              <tr>
+                <th>Color</th>
+                <td>Black, Gray, Orange, Yellow</td>
+              </tr>
+            </table>
+          </div>
+
+          <div id="content-reviews" class="tab-pane fade show active" role="tabpanel" aria-labelledby="tab-reviews">
+            <p class="review-note"></p>
+            <form action="">
+              <div class="review-point">
+                <div class="radio-icon">
+                  <label>
+                    <input type="radio" name="point">
+                    <i class="fa-regular fa-star"></i>
+                  </label>
+                </div>
+                <div class="radio-icon">
+                  <label>
+                    <input type="radio" name="point">
+                    <i class="fa-regular fa-star"></i>
+                  </label>
+                </div>
+                <div class="radio-icon">
+                  <label>
+                    <input type="radio" name="point">
+                    <i class="fa-regular fa-star"></i>
+                  </label>
+                </div>
+                <div class="title poppins">YOUR RATING*</div>
+              </div>
+              <br>
+              <div class="review-box row">
+                <div class="review-col-2 col-12 col-md">
+                  <div class="input-secondary">
+                    <label for="email">Your comment *</label>
+                    <textarea class="text-area" name="content"></textarea>
+                  </div>
+                </div>
+                <div class="review-col-1 col-12 col-md">
+                  <div class="input-secondary">
+                    <label for="ip_name">Your Name *</label>
+                    <input type="text" id="ip_name" name="name">
+                  </div>
+                  <br>
+                  <div class="input-secondary">
+                    <label for="email">Your Email *</label>
+                    <input type="email" id="email" name="email">
+                  </div>
+                  <div class="review-submit">
+                    <br>
+                    <a href="#"><button class="btn-text-lg bgr-black">SUBMIT</button></a>
+                  </div>
+                </div>
+              </div> 
+              <div class="review-options">
+                <div class="checkbox">
+                  <br>
+                  <input type="checkbox" name="isSave" id="check_box">
+                  <label for="check_box">Save my name, email, and website in this browser for the next time I comment.</label>
+                </div>
+              </div>
+            </form>
+            <div class="reviews-list">
+              <div class="reviews-list_title">Other Reviews</div>
+              <div class="card-review">
+                <div class="card-review-info">
+                  <img src="https://secure.gravatar.com/avatar/f5a3778cab66f714ab062b54743030aa?s=60&d=mm&r=g" alt="" class="avatar">
+                  <div class="cr-info_personal">
+                    <div class="info_personal-name poppins">YASOU<span class="star-rate" data-rate="4"></span></div>
+                    <div class="info_personal-date poppins">November 16, 2021</div>
+                  </div>
+                </div>
+                <div class="card-review-content"><p>Muy buena relación calidad precio. Queda muy elegante y moderno.el servicio excelente.</p></div>
+              </div>
+              <div class="card-review">
+                <div class="card-review-info">
+                  <img src="https://secure.gravatar.com/avatar/f5a3778cab66f714ab062b54743030aa?s=60&d=mm&r=g" alt="" class="avatar">
+                  <div class="cr-info_personal">
+                    <div class="info_personal-name poppins">YASOU<span class="star-rate" data-rate="4"></span></div>
+                    <div class="info_personal-date poppins">November 16, 2021</div>
+                  </div>
+                </div>
+                <div class="card-review-content"><p>Muy buena relación calidad precio. Queda muy elegante y moderno.el servicio excelente.</p></div>
+              </div>
+              <div class="card-review">
+                <div class="card-review-info">
+                  <img src="https://secure.gravatar.com/avatar/f5a3778cab66f714ab062b54743030aa?s=60&d=mm&r=g" alt="" class="avatar">
+                  <div class="cr-info_personal">
+                    <div class="info_personal-name poppins">YASOU<span class="star-rate" data-rate="4"></span></div>
+                    <div class="info_personal-date poppins">November 16, 2021</div>
+                  </div>
+                </div>
+                <div class="card-review-content"><p>Muy buena relación calidad precio. Queda muy elegante y moderno.el servicio excelente.</p></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 
   <script type="module" src="../assets/js/index.js"></script>
