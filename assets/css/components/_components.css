@@ -1,5 +1,5 @@
 @import url('./menu.css');
-@import url("contact.css");
+@import url("./contact.css");
 @import url("./button.css");
 @import url("./filter-btn.css");
 @import url("./pagination.css");
@@ -12,5 +12,8 @@
 @import url("./card-category.css");
 @import url("./footer.css");
 @import url("./card-product.css");
+@import url("./star-rate.css");
+@import url("./card-shop.css");
+@import url("./breadcrumb.css");
 
 

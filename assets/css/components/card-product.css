@@ -1,7 +1,7 @@
 .card-product-1,.card-components-2 {
     display: flex;
     position: relative;
-    width: 33.33%;
+    width: 450px;
 }
 .img-product-container {
     position: relative;
@@ -10,7 +10,7 @@
 }
 .card-product-1 .img-product-container img,.img-product {
     transition: opacity 0.4s ;
-    /*width: 448px;*/
+    width: 448px;
     object-fit: cover;
 }
 .img-product-hover {
