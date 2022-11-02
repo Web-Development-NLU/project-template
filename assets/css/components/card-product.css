@@ -9,15 +9,9 @@
     margin-bottom: 1.0625rem;
 }
 .card-product-1 .img-product-container img,.img-product {
-    transition: opacity 0.4s ;
+    transition: all 0.4s linear;
     object-fit: cover;
     width: 100%;
-}
-.img-product-hover {
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: 0;
 }
 .btn-card-product {
     position: absolute;
@@ -42,9 +36,6 @@
 }
 .tf-3{
     transition: transform 0.5s ease-in-out !important;
-}
-.img-product-container:hover .img-product-hover {
-    opacity: 1;
 }
 .img-product-container:hover .btn-card-product >a{
     transform: translateY(0px);
@@ -78,7 +69,7 @@
 .unset-border {
     border: none;
 }
-.card-components-2 .img-product-container:hover .img-product{
+.img-product-container:hover .img-product{
     transform: scale(1.05);
     object-fit: cover;
 }
