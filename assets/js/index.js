@@ -6,3 +6,4 @@ import "./star-rate.js"
 import "./category-slide.js"
 import "./menu-search.js"
 import "./rate-point.js"
+import "./cl-text-price.js";
