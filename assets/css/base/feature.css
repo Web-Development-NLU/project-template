@@ -60,3 +60,8 @@
   border: 1px solid var(--cta-09);
   color: var(--cta-09);
 }
+
+.hover-bg-black:hover {
+  background-color: var(--cta-09);
+  color: var(--cta-02);
+}
