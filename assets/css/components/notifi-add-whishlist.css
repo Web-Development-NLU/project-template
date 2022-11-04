@@ -1,0 +1,52 @@
+.notifi-add-whishlist-container {
+    padding: 2.5rem;
+    max-width: 360px;
+    margin: 0 auto;
+    position: relative;
+}
+.notifi-add-whishlist-container .head-notifi i {
+    font-size: 2.875rem;
+    font-weight: 400;
+    line-height: 2.875rem;
+    margin: 0 auto 1.5625rem;
+    display: block;
+    width: 46px;
+    height: 46px;
+}
+.notifi-add-whishlist-container .head-notifi >div {
+    font-size: 0.875rem;
+    color: var(--cta-05);
+    font-weight: 400;
+    margin-bottom: 1.5625rem;
+    text-align: center;
+}
+.notifi-add-whishlist-container .btn-notifi-container {
+    margin-top: 1.25rem;
+}
+.notifi-add-whishlist-container .btn-notifi-container > button {
+    margin-bottom: 0.625rem;
+    border: 2px solid var(--cta-10);
+    color: var(--cta-10);
+    font-size: 0.6875rem;
+    text-transform: uppercase;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.25rem;
+    font-weight: 600;
+    height: 50px;
+    padding: 0.9375rem 1.5625rem;
+    letter-spacing: 2px;
+    width: 100%;
+    background-color: var(--cta-01);
+    transition: all 0.3s linear 0s;
+}
+.notifi-add-whishlist-container .btn-notifi-container > button i {
+    font-size: 1.25rem;
+    line-height: 1.1875rem;
+    margin-right: 0.375rem;
+}
+.notifi-add-whishlist-container .btn-notifi-container > button:hover {
+    color: var(--cta-01);
+    background-color: var(--cta-10);
+}

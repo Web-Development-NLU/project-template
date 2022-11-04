@@ -8,6 +8,8 @@
 }
 .input-primary::placeholder,.text-area::placeholder{
     color: var(--cta-05);
+    font-size: 1rem;
+    font-weight: 100;
 }
 .input-primary:focus,.input-secondary:focus ,.text-area:focus {
     border-color:var(--ctb-10);
@@ -108,4 +110,10 @@
 .checkbox {
     font-size: 0.8125rem;
     color: var(--cta-06);
+}
+.checkbox label {
+    font-family: var(--f-poppins);
+    font-weight: 500;
+    margin-bottom: 0;
+    line-height: 1.5rem;
 }
