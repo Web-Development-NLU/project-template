@@ -1,0 +1,21 @@
+.action-cart {
+  border-bottom: 1px solid var(--cta-02);
+  margin-top: 20px;
+}
+
+.checkout-cart {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  text-align: top;
+}
+
+.checkout-cart img {
+  width: 58px;
+  border: 1px solid var(--cta-07);
+  margin-right: 10px;
+}
+
+.checkout-cart .checkout-cart-info {
+  display: flex;
+}
