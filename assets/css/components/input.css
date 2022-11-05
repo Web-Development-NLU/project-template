@@ -9,7 +9,7 @@
 .input-primary::placeholder,.text-area::placeholder{
     color: var(--cta-05);
     font-size: 1rem;
-    font-weight: 100;
+    font-weight: 400;
 }
 .input-primary:focus,.input-secondary:focus ,.text-area:focus {
     border-color:var(--ctb-10);
