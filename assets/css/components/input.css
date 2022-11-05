@@ -100,7 +100,6 @@
 .text-area {
     width: 100%;
     padding: 0.9375em;
-    height: 220px;
     font-size: 1rem;
     outline: none;
     transition: border-color 0.5s linear 0s;

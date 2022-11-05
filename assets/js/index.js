@@ -1,3 +1,10 @@
-import "./star-rate.js";
+import "./menu-responsive.js"
+import "./menu-scroll.js"
+import "./slider.js"
+import "./product-gallery.js"
+import "./star-rate.js"
+import "./category-slide.js"
+import "./menu-search.js"
+import "./rate-point.js"
 import "./cl-text-price.js";
-import "./show-password.js";
+import "./wishlist.js"
