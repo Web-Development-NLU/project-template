@@ -12,6 +12,7 @@
     display: block;
     width: 46px;
     height: 46px;
+    color: var(--cta-06);
 }
 .notifi-add-whishlist-container .head-notifi >div {
     font-size: 0.875rem;

@@ -44,7 +44,7 @@
 .card-store-swap .content-area .header-cards-whishlist {
     margin-bottom: 1.875rem;
 }
-card-store-swap .content-area .header-cards-whishlist > h2 {
+.card-store-swap .content-area .header-cards-whishlist > h2 {
     font-size: 2rem;
     font-weight: 500;
     line-height: 3rem;
@@ -62,7 +62,7 @@ card-store-swap .content-area .header-cards-whishlist > h2 {
     color: var(--ctd-03);
 }
 .card-store-whishlist-container .card-store-swap .content-area .text-content > p {
-    padding: 0.875rem 1.75rem 0.875rem 3.0625em;
+    padding: 0.875rem 1.75rem 0.875rem 3.0625rem;
     margin: 0 0 1.75rem;
     position: relative;
     background-color: #f7f6f7;
@@ -74,4 +74,21 @@ card-store-swap .content-area .header-cards-whishlist > h2 {
     font-size: 0.875rem;
     font-weight: 400;
     line-height: 1.5rem;
+}
+@media only screen and (max-width: 767px){
+    .card-store-swap{
+        padding: 0 0.9375rem;
+    }
+    .card-store-whishlist-container .container-content-swap {
+        padding: 0;
+    }
+    .card-store-swap .content-area .header-cards-whishlist > h2 {
+        font-size: 1.375rem;
+        line-height: 2.0625rem;
+        text-align: center;
+    }
+    .card-store-swap .content-area .btn-return-shop a {
+        padding: 0.75rem 0.9375rem;
+        font-size: 0.875rem;
+    }
 }
