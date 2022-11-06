@@ -3,6 +3,7 @@
     max-width: 360px;
     margin: 0 auto;
     position: relative;
+    background-color: var(--cta-01);
 }
 .notifi-add-whishlist-container .head-notifi i {
     font-size: 3.75rem;
