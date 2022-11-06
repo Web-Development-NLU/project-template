@@ -1,0 +1,20 @@
+.home-product-container {
+  background-color: var(--cta-02);
+  padding: 50px 0;
+}
+
+.home-product {
+  max-width: 1500px;
+  margin: auto;
+}
+
+.home-product .product_title {
+  font-weight: 300;
+  font-size: 2rem;
+  width: fit-content;
+  margin: auto;
+}
+
+.home-product .product-list .card-components-2{
+  margin-top: 50px;
+}

@@ -1,6 +1,16 @@
+.filter-product {
+  position: relative;
+  max-width: 1470px;
+}
+
 .filter-boards {
   width: 100%;
   padding: 30px;
+  position: absolute;
+  border: 1px solid var(--cta-09);
+  top: 70px;
+  background: var(--cta-01);
+  z-index: 1;
 }
 
 .filter-boards .filter-boards_close {
@@ -10,15 +20,29 @@
   transition: 0.3s;
 }
 
+.filter-boards_category-options {
+  margin: 0;
+}
+
 .filter-boards_category-tittle {
   padding-bottom: 20px;
   border-bottom: 1px solid var(--cta-04);
+  font-weight: 500;
 }
 
 .filter-boards_category-options .options-item {
-  padding: 10px;
+  padding: 10px 10px 10px 0;
   border-bottom: 1px solid var(--cta-02);
 }
+
+.filter-boards_category-options .options-item button {
+  background: transparent;
+}
+
+.filter-boards_category-options .options-item.active button {
+  color: var(--ctb-09);
+}
+
 
 @media screen and (min-width: 992px) {
   .filter-boards_category-options {
