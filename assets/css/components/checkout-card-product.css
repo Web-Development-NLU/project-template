@@ -1,5 +1,6 @@
 .checkout-card-product {
     display: flex;
+    justify-content: space-between;
 }
 .checkout-card-product .product-info-container {
     display: flex;
@@ -55,6 +56,7 @@
     font-size: 0.9375rem;
     font-weight: 400;
     font-family: var(--f-poppins);
+    margin-right: 0.6em;
 }
 @media only screen and (max-width: 575px) {
     .checkout-card-product .product-info-container .product-info .product-item-name{
