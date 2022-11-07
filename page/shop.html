@@ -125,12 +125,13 @@
         <button class="btn-icon bgr-red br-50 color-white"><i class="bi bi-funnel"></i></button>
         <button class="filter-btn_text color-black">FILTER</button>
       </div>
-      <div class="filter-boards bgr-white collapse" id="collapseExample">
-        <div class="filter-boards_close hover-text-red" data-toggle="collapse" data-target="#collapseExample">
-          <i class="fa-solid fa-xmark"></i>
-          Hide Filters
-        </div>
-        <form action="">
+      <form action="">
+        <div class="filter-boards bgr-white collapse" id="collapseExample">
+          <div class="filter-boards_close hover-text-red" data-toggle="collapse" data-target="#collapseExample">
+            <i class="fa-solid fa-xmark"></i>
+            Hide Filters
+          </div>
+
           <div class="filter-boards_categories row">
             <div class="filter-boards_category col-12 col-lg">
               <div class="filter-boards_category-tittle">CATEGORIES</div>
@@ -169,7 +170,7 @@
             <div class="filter-boards_category col-12 col-lg">
               <div class="filter-boards_category-tittle">TAGS</div>
               <div class="filter-boards_category-options">
-                <div class="options-item"><button name="tag" value="1">Fabic <span>(4)</span></button></div>
+                <div class="options-item"><button>Fabic <span>(4)</span></button></div>
                 <div class="options-item"><button>Leather <span>(10)</span></button></div>
                 <div class="options-item"><button>Plastic <span>(6)</span></button></div>
                 <div class="options-item"><button>Plywood <span>(15)</span></button></div>
@@ -181,7 +182,253 @@
               <div class="filter-boards_category-options"></div>
             </div>
           </div>
-        </form>
+        </div>
+
+        <div class="filter-results mt-3 ml-2">
+          <div id="clear-filter"><a href="#" class="color-black hover-text-red"><i class="fa-solid fa-xmark"></i>
+              clear</a></div>
+          <div class="filter-result-item">
+            <span class="result-item_type">Category:</span>
+            <button class="result-item_content btn-sm bgr-red hover-bg-black result-item_clear">Bedroom <i
+                class="fa-solid fa-xmark"></i></button>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <div class="products-container">
+      <div class="products">
+        <div class="container-fluid">
+          <div class="product-list row mb-5 ">
+            <div class="card-components-2 col-6 col-md-4 col-lg-3">
+              <div class="product-item-wrap">
+                <div class="img-product-container unset-border">
+                  <a href="#">
+                    <img class="img-product transt-04-linear" src="../assets/imgs/card-shop/chair-product.jpg" alt="">
+                  </a>
+                  <div class="btn-card-product translateY-bottom-btn">
+                    <a href="#"><button class="btn-icon bgr-white hover-bg-red br-50 shadow-01"><i
+                          class="bi bi-bag"></i></button></a>
+                    <a href="#"><button class="btn-icon bgr-white hover-bg-red br-50 shadow-01"><i
+                          class="fa-regular fa-heart fw-500"></i></button></a>
+                    <a href="#"><button class="btn-icon bgr-white hover-bg-red br-50 shadow-01"><i
+                          class="fa-sharp fa-solid fa-magnifying-glass"></i></button></a>
+                  </div>
+                </div>
+                <div class="info-product">
+                  <div class="star-rate" data-rate="4"></div>
+                  <h2 class="product-name">
+                    <a href="#"><span>Pauline Barstool</span></a>
+                  </h2>
+                  <div class="card-price">
+                    <span class="current-price">560.00$</span>
+                    <span class="cost cl-text-price"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-components-2 col-6 col-md-4 col-lg-3">
+              <div class="product-item-wrap">
+                <div class="img-product-container unset-border">
+                  <a href="#">
+                    <img class="img-product transt-04-linear" src="../assets/imgs/card-shop/chair-product.jpg" alt="">
+                  </a>
+                  <div class="btn-card-product translateY-bottom-btn">
+                    <a href="#"><button class="btn-icon bgr-white hover-bg-red br-50 shadow-01"><i
+                          class="bi bi-bag"></i></button></a>
+                    <a href="#"><button class="btn-icon bgr-white hover-bg-red br-50 shadow-01"><i
+                          class="fa-regular fa-heart fw-500"></i></button></a>
+                    <a href="#"><button class="btn-icon bgr-white hover-bg-red br-50 shadow-01"><i
+                          class="fa-sharp fa-solid fa-magnifying-glass"></i></button></a>
+                  </div>
+                </div>
+                <div class="info-product">
+                  <div class="star-rate" data-rate="4"></div>
+                  <h2 class="product-name">
+                    <a href="#"><span>Pauline Barstool</span></a>
+                  </h2>
+                  <div class="card-price">
+                    <span class="current-price">560.00$</span>
+                    <span class="cost cl-text-price"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-components-2 col-6 col-md-4 col-lg-3">
+              <div class="product-item-wrap">
+                <div class="img-product-container unset-border">
+                  <a href="#">
+                    <img class="img-product transt-04-linear" src="../assets/imgs/card-shop/chair-product.jpg" alt="">
+                  </a>
+                  <div class="btn-card-product translateY-bottom-btn">
+                    <a href="#"><button class="btn-icon bgr-white hover-bg-red br-50 shadow-01"><i
+                          class="bi bi-bag"></i></button></a>
+                    <a href="#"><button class="btn-icon bgr-white hover-bg-red br-50 shadow-01"><i
+                          class="fa-regular fa-heart fw-500"></i></button></a>
+                    <a href="#"><button class="btn-icon bgr-white hover-bg-red br-50 shadow-01"><i
+                          class="fa-sharp fa-solid fa-magnifying-glass"></i></button></a>
+                  </div>
+                </div>
+                <div class="info-product">
+                  <div class="star-rate" data-rate="4"></div>
+                  <h2 class="product-name">
+                    <a href="#"><span>Pauline Barstool</span></a>
+                  </h2>
+                  <div class="card-price">
+                    <span class="current-price">560.00$</span>
+                    <span class="cost cl-text-price"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-components-2 col-6 col-md-4 col-lg-3">
+              <div class="product-item-wrap">
+                <div class="img-product-container unset-border">
+                  <a href="#">
+                    <img class="img-product transt-04-linear" src="../assets/imgs/card-shop/chair-product.jpg" alt="">
+                  </a>
+                  <div class="btn-card-product translateY-bottom-btn">
+                    <a href="#"><button class="btn-icon bgr-white hover-bg-red br-50 shadow-01"><i
+                          class="bi bi-bag"></i></button></a>
+                    <a href="#"><button class="btn-icon bgr-white hover-bg-red br-50 shadow-01"><i
+                          class="fa-regular fa-heart fw-500"></i></button></a>
+                    <a href="#"><button class="btn-icon bgr-white hover-bg-red br-50 shadow-01"><i
+                          class="fa-sharp fa-solid fa-magnifying-glass"></i></button></a>
+                  </div>
+                </div>
+                <div class="info-product">
+                  <div class="star-rate" data-rate="4"></div>
+                  <h2 class="product-name">
+                    <a href="#"><span>Pauline Barstool</span></a>
+                  </h2>
+                  <div class="card-price">
+                    <span class="current-price">560.00$</span>
+                    <span class="cost cl-text-price"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-components-2 col-6 col-md-4 col-lg-3">
+              <div class="product-item-wrap">
+                <div class="img-product-container unset-border">
+                  <a href="#">
+                    <img class="img-product transt-04-linear" src="../assets/imgs/card-shop/chair-product.jpg" alt="">
+                  </a>
+                  <div class="btn-card-product translateY-bottom-btn">
+                    <a href="#"><button class="btn-icon bgr-white hover-bg-red br-50 shadow-01"><i
+                          class="bi bi-bag"></i></button></a>
+                    <a href="#"><button class="btn-icon bgr-white hover-bg-red br-50 shadow-01"><i
+                          class="fa-regular fa-heart fw-500"></i></button></a>
+                    <a href="#"><button class="btn-icon bgr-white hover-bg-red br-50 shadow-01"><i
+                          class="fa-sharp fa-solid fa-magnifying-glass"></i></button></a>
+                  </div>
+                </div>
+                <div class="info-product">
+                  <div class="star-rate" data-rate="4"></div>
+                  <h2 class="product-name">
+                    <a href="#"><span>Pauline Barstool</span></a>
+                  </h2>
+                  <div class="card-price">
+                    <span class="current-price">560.00$</span>
+                    <span class="cost cl-text-price"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-components-2 col-6 col-md-4 col-lg-3">
+              <div class="product-item-wrap">
+                <div class="img-product-container unset-border">
+                  <a href="#">
+                    <img class="img-product transt-04-linear" src="../assets/imgs/card-shop/chair-product.jpg" alt="">
+                  </a>
+                  <div class="btn-card-product translateY-bottom-btn">
+                    <a href="#"><button class="btn-icon bgr-white hover-bg-red br-50 shadow-01"><i
+                          class="bi bi-bag"></i></button></a>
+                    <a href="#"><button class="btn-icon bgr-white hover-bg-red br-50 shadow-01"><i
+                          class="fa-regular fa-heart fw-500"></i></button></a>
+                    <a href="#"><button class="btn-icon bgr-white hover-bg-red br-50 shadow-01"><i
+                          class="fa-sharp fa-solid fa-magnifying-glass"></i></button></a>
+                  </div>
+                </div>
+                <div class="info-product">
+                  <div class="star-rate" data-rate="4"></div>
+                  <h2 class="product-name">
+                    <a href="#"><span>Pauline Barstool</span></a>
+                  </h2>
+                  <div class="card-price">
+                    <span class="current-price">560.00$</span>
+                    <span class="cost cl-text-price"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-components-2 col-6 col-md-4 col-lg-3">
+              <div class="product-item-wrap">
+                <div class="img-product-container unset-border">
+                  <a href="#">
+                    <img class="img-product transt-04-linear" src="../assets/imgs/card-shop/chair-product.jpg" alt="">
+                  </a>
+                  <div class="btn-card-product translateY-bottom-btn">
+                    <a href="#"><button class="btn-icon bgr-white hover-bg-red br-50 shadow-01"><i
+                          class="bi bi-bag"></i></button></a>
+                    <a href="#"><button class="btn-icon bgr-white hover-bg-red br-50 shadow-01"><i
+                          class="fa-regular fa-heart fw-500"></i></button></a>
+                    <a href="#"><button class="btn-icon bgr-white hover-bg-red br-50 shadow-01"><i
+                          class="fa-sharp fa-solid fa-magnifying-glass"></i></button></a>
+                  </div>
+                </div>
+                <div class="info-product">
+                  <div class="star-rate" data-rate="4"></div>
+                  <h2 class="product-name">
+                    <a href="#"><span>Pauline Barstool</span></a>
+                  </h2>
+                  <div class="card-price">
+                    <span class="current-price">560.00$</span>
+                    <span class="cost cl-text-price"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-components-2 col-6 col-md-4 col-lg-3">
+              <div class="product-item-wrap">
+                <div class="img-product-container unset-border">
+                  <a href="#">
+                    <img class="img-product transt-04-linear" src="../assets/imgs/card-shop/chair-product.jpg" alt="">
+                  </a>
+                  <div class="btn-card-product translateY-bottom-btn">
+                    <a href="#"><button class="btn-icon bgr-white hover-bg-red br-50 shadow-01"><i
+                          class="bi bi-bag"></i></button></a>
+                    <a href="#"><button class="btn-icon bgr-white hover-bg-red br-50 shadow-01"><i
+                          class="fa-regular fa-heart fw-500"></i></button></a>
+                    <a href="#"><button class="btn-icon bgr-white hover-bg-red br-50 shadow-01"><i
+                          class="fa-sharp fa-solid fa-magnifying-glass"></i></button></a>
+                  </div>
+                </div>
+                <div class="info-product">
+                  <div class="star-rate" data-rate="4"></div>
+                  <h2 class="product-name">
+                    <a href="#"><span>Pauline Barstool</span></a>
+                  </h2>
+                  <div class="card-price">
+                    <span class="current-price">560.00$</span>
+                    <span class="cost cl-text-price"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <nav aria-label="Page navigation">
+          <ul class="pagination">
+            <li class="page-item pagination-item"><a class="page-link color-black" href="#"><i
+                  class="fa-solid fa-angle-left"></i></a></li>
+            <li class="page-item pagination-item"><a class="page-link color-black pg-action" href="#">1</a></li>
+            <li class="page-item pagination-item"><a class="page-link color-black" href="#">2</a></li>
+            <li class="page-item pagination-item"><a class="page-link color-black" href="#">3</a></li>
+            <li class="page-item pagination-item"><a class="page-link color-black" href="#"><i
+                  class="fa-solid fa-angle-right"></i></a></li>
+          </ul>
+        </nav>
       </div>
     </div>
 

@@ -17,6 +17,10 @@
   color: var(--cta-09)
 }
 
+.bgr-white-02 {
+  background-color: var(--cta-02);
+}
+
 .bgr-gray {
   background-color: var(--cta-05);
 }

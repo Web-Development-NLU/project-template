@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div id="container">
+    <menu class="head_top menu-white sticky-menu">
+      <div class="container-fluid container_menu">
+        <div class="row">
+          <div id="menu_btn-responsive" class="menu_btn-responsive col"><i class="fa-solid fa-bars"></i></div>
+          <ul class="menu_list col">
+            <li class="menu_list_item"><a href="#">Home</a></li>
+            <li class="menu_list_item"><a href="#">Products</a></li>
+            <li class="menu_list_item"><a href="#">About Us</a> </li>
+            <li class="menu_list_item"><a href="#">Contact</a></li>
+            <li class="menu_list_item hidden_item"><a href="#">
+                <i class="fa-regular fa-user action-icon color-red"></i>
+                <span class="btn-content poppins">Login</span>
+              </a></li>
+          </ul>
+          <div class="menu_logo col">
+            <h2><a class="poppins" href="#">FURNITURE</a></h2>
+          </div>
+          <ul class="menu_action col">
+            <li class="menu_search menu_action_item"><a href="#">
+                <button class="btn-icon bgr-red br-50 color-white"><i class="fa-solid fa-magnifying-glass"></i></button>
+              </a></li>
+
+            <li class="menu_login menu_action_item">
+              <button class="btn-icon-cb-text bd-white-02 rounded-pill">
+                <a href="#" class="color-white">
+                  <i class="fa-regular fa-user action-icon"></i>
+                  <span class="btn-content poppins">Login</span>
+                </a>
+              </button>
+            </li>
+
+            <li class="menu_cart menu_action_item">
+              <button class="btn-badge">
+                <a href="#" class="color-white">
+                  <i class="bi bi-bag"></i>
+                  <span class="badge">4</span>
+                </a>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </menu>
+    <div class="head-bottom-breadcrumb">
+      <div aria-label="breadcrumb">
+        <ol class="breadcrumb color-black">
+          <li class="breadcrumb-item poppins" aria-current="page"><a href="#" class="color-black">Home</a></li>
+          <li class="breadcrumb-item poppins" aria-current="page">About</li>
+        </ol>
+      </div>
+    </div>
+
+    <div class="product-container container-fluid">
+      <div class="product row">
+        <div class="product-images col-md-12 col-lg-7">
+          <div class="product-gallery">
+            <div class="product-gallery-item">
+              <img
+                src="https://caston.familab.net/wp-content/uploads/2021/09/product_montana_collection_read_burma_plinthh3_front_ns_2.jpg"
+                alt="">
+              <span class="gallery-num">1/2</span>
+            </div>
+            <div class="product-gallery-item">
+              <img src="https://caston.familab.net/wp-content/uploads/2021/09/product_montana_read_yellow.jpg" alt="">
+              <span class="gallery-num">2/2</span>
+            </div>
+          </div>
+          <div class="gallery-action">
+            <div class="gallery-action-item"><img
+                src="https://caston.familab.net/wp-content/uploads/2021/09/product_montana_collection_read_burma_plinthh3_front_ns_2.jpg"
+                alt=""></div>
+            <div class="gallery-action-item"><img
+                src="https://caston.familab.net/wp-content/uploads/2021/09/product_montana_read_yellow.jpg" alt="">
+            </div>
+          </div>
+        </div>
+
+        <div class="product-detail col col-lg-4">
+          <div class="product_rate-point">
+            <div class="star-rate" data-rate="4"></div>
+            <div class="rate-number">(4 reviews)</div>
+          </div>
+          <div class="product_name poppins">
+            <h2>Read Bookcase</h2>
+          </div>
+          <div class="product_price">210.00$</div>
+          <div class="product_description">
+            <p>Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend
+              leo.</p>
+          </div>
+          <form action="">
+            <div class="product_options">
+              <div class="gallery-action product_options-choice">
+                <div class="product_option_title">Color:</div>
+                <div class="input-radio rd-yellow">
+                  <label>
+                    <input type="radio" name="color">
+                    <div class="radio-bg"></div>
+                  </label>
+                </div>
+                <div class="input-radio rd-red">
+                  <label>
+                    <input type="radio" name="color">
+                    <div class="radio-bg"></div>
+                  </label>
+                </div>
+              </div>
+
+              <div class="product_pattern product_options-choice">
+                <div class="product_option_title">Pattern:</div>
+                <div class="input-radio rd-yellow">
+                  <label>
+                    <input type="radio" name="pattern">
+                    <div class="radio-bg"></div>
+                  </label>
+                </div>
+                <div class="input-radio rd-red">
+                  <label>
+                    <input type="radio" name="pattern">
+                    <div class="radio-bg"></div>
+                  </label>
+                </div>
+              </div>
+
+              <div class="product_size product_options-choice">
+                <div class="product_option_title">Size:</div>
+                <div class="input-radio-text">
+                  <label>
+                    <input type="radio" name="size">
+                    <div class="radio-btn">Small</div>
+                  </label>
+                </div>
+                <div class="input-radio-text">
+                  <label>
+                    <input type="radio" name="size">
+                    <div class="radio-btn">Large</div>
+                  </label>
+                </div>
+              </div>
+            </div>
+
+            <div class="product_action row">
+              <div class="col-9 col-lg">
+                <a href="#"><button class="btn-text-lg bgr-black hover-bg-red">ADD TO CART</button></a>
+              </div>
+              <div class="product_number col-3 col-sm-2 col-lg-3">
+                <input type="number" class="input-number" value="1">
+              </div>
+            </div>
+          </form>
+          <div class="product_btn-add-wishlist">
+            <div class="wishlist-btn-icon"><i class="fa-regular fa-heart"></i></div>
+            <div class="wishlist-title">Add to wishlist</div>
+          </div>
+          <div class="product_info">
+            <div class="product_info-item">
+              <div class="product_info-type">SKU:</div>
+              <div class="product_info-name">BED1081</div>
+            </div>
+            <div class="product_info-item">
+              <div class="product_info-type">Category:</div>
+              <div class="product_info-name">Storage</div>
+            </div>
+          </div>
+          <div class="action-share-social">
+            <span class="title">Share:</span>
+            <a href="#"><button class="social-item hover-text-red br-50"><i
+                  class="fa-brands fa-facebook-f"></i></button></a>
+            <a href="#"><button class="social-item hover-text-red br-50"><i
+                  class="fa-brands fa-twitter"></i></button></a>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="tabs-container">
+      <div class="tabs-info-product container-fluid" id="tab-parent">
+        <div class="tab-info-product_list nav nav-tabs" role="tablist">
+          <div class="nav-item tab-item active" id="tab-description" role="tab" data-toggle="tab"
+            data-target="#content-des" aria-controls="content-des" aria-selected="true">DESCRIPTON</div>
+          <div class="nav-item tab-item" id="tab-info" role="tab" data-toggle="tab" data-target="#content-info"
+            aria-controls="content-info" aria-selected="false">ADDITIONAL INFORMATION</div>
+          <div class="nav-item tab-item" id="tab-reviews" role="tab" data-toggle="tab" data-target="#content-reviews"
+            aria-controls="content-reviews" aria-selected="false">REVIEWS <span class="reviews-number">(4)</span></div>
+        </div>
+
+        <div class="content-list tab-content">
+          <div id="content-des" class="tab-pane fade show active" role="tabpanel" aria-labelledby="tab-description">
+            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum
+              tortor quam, feugiat vitae, ultricies eget,
+              tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris
+              placerat eleifend leo. </p>
+            <p>Lorem ipsum was conceived as filler text, formatted in a certain way to enable the presentation of
+              graphic elements in documents, without the need
+              for formal copy. Using Lorem Ipsum allows designers to put together layouts and the form of the content
+              before the content has been created, giving
+              the design and production process more freedom. </p>
+          </div>
+
+          <div id="content-info" class="tab-pane fade" role="tabpanel" aria-labelledby="tab-info">
+            <table class="table table-bordered">
+              <tr>
+                <th>Dimensions</th>
+                <td>30 × 139.2 × 211.8 cm</td>
+              </tr>
+              <tr>
+                <th>Color</th>
+                <td>Black, Gray, Orange, Yellow</td>
+              </tr>
+            </table>
+          </div>
+
+          <div id="content-reviews" class="tab-pane fade" role="tabpanel" aria-labelledby="tab-reviews">
+            <p class="review-note"></p>
+            <form action="">
+              <div class="review-point">
+                <div class="radio-icon">
+                  <label>
+                    <input type="radio" name="point">
+                    <i class="fa-regular fa-star"></i>
+                  </label>
+                </div>
+                <div class="radio-icon">
+                  <label>
+                    <input type="radio" name="point">
+                    <i class="fa-regular fa-star"></i>
+                  </label>
+                </div>
+                <div class="radio-icon">
+                  <label>
+                    <input type="radio" name="point">
+                    <i class="fa-regular fa-star"></i>
+                  </label>
+                </div>
+                <div class="title poppins">YOUR RATING*</div>
+              </div>
+              <br>
+              <div class="review-box row">
+                <div class="review-col-2 col-12 col-md">
+                  <div class="input-secondary">
+                    <label for="email">Your comment *</label>
+                    <textarea class="text-area" name="content"></textarea>
+                  </div>
+                </div>
+                <div class="review-col-1 col-12 col-md">
+                  <div class="input-secondary">
+                    <label for="ip_name">Your Name *</label>
+                    <input type="text" id="ip_name" name="name">
+                  </div>
+                  <br>
+                  <div class="input-secondary">
+                    <label for="email">Your Email *</label>
+                    <input type="email" id="email" name="email">
+                  </div>
+                  <div class="review-submit">
+                    <br>
+                    <a href="#"><button class="btn-text-lg bgr-black">SUBMIT</button></a>
+                  </div>
+                </div>
+              </div>
+              <div class="review-options">
+                <div class="checkbox">
+                  <br>
+                  <input type="checkbox" name="isSave" id="check_box">
+                  <label for="check_box">Save my name, email, and website in this browser for the next time I
+                    comment.</label>
+                </div>
+              </div>
+            </form>
+            <div class="reviews-list">
+              <div class="reviews-list_title">Other Reviews</div>
+              <div class="card-review">
+                <div class="card-review-info">
+                  <img src="https://secure.gravatar.com/avatar/f5a3778cab66f714ab062b54743030aa?s=60&d=mm&r=g" alt=""
+                    class="avatar">
+                  <div class="cr-info_personal">
+                    <div class="info_personal-name poppins">YASOU<span class="star-rate" data-rate="4"></span></div>
+                    <div class="info_personal-date poppins">November 16, 2021</div>
+                  </div>
+                </div>
+                <div class="card-review-content">
+                  <p>Muy buena relación calidad precio. Queda muy elegante y moderno.el servicio excelente.</p>
+                </div>
+              </div>
+              <div class="card-review">
+                <div class="card-review-info">
+                  <img src="https://secure.gravatar.com/avatar/f5a3778cab66f714ab062b54743030aa?s=60&d=mm&r=g" alt=""
+                    class="avatar">
+                  <div class="cr-info_personal">
+                    <div class="info_personal-name poppins">YASOU<span class="star-rate" data-rate="4"></span></div>
+                    <div class="info_personal-date poppins">November 16, 2021</div>
+                  </div>
+                </div>
+                <div class="card-review-content">
+                  <p>Muy buena relación calidad precio. Queda muy elegante y moderno.el servicio excelente.</p>
+                </div>
+              </div>
+              <div class="card-review">
+                <div class="card-review-info">
+                  <img src="https://secure.gravatar.com/avatar/f5a3778cab66f714ab062b54743030aa?s=60&d=mm&r=g" alt=""
+                    class="avatar">
+                  <div class="cr-info_personal">
+                    <div class="info_personal-name poppins">YASOU<span class="star-rate" data-rate="4"></span></div>
+                    <div class="info_personal-date poppins">November 16, 2021</div>
+                  </div>
+                </div>
+                <div class="card-review-content">
+                  <p>Muy buena relación calidad precio. Queda muy elegante y moderno.el servicio excelente.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="products-container">
+      <div class="products">
+        <div class="product_title poppins">You may so like</div>
+        <div class="container-fluid">
+          <div class="product-list row mb-5 ">
+            <div class="card-product-1 col-6 col-md-4 col-lg-3">
+              <div class="product-item-wrap">
+                <div class="img-product-container">
+                  <a href="#">
+                    <img class="img-product transt-04-linear" src="../assets/imgs/card-shop/chair-product.jpg" alt="">
+                  </a>
+                  <div class="btn-card-product translateX-bottom-btn">
+                    <a class="tf-1" href="#"><button class="btn-icon bgr-white hover-bg-red color-black shadow-01"><i
+                          class="bi bi-bag"></i></button></a>
+                    <a class="tf-2" href="#"><button class="btn-icon bgr-white hover-bg-red color-black shadow-01"><i
+                          class="fa-regular fa-heart"></i></button></a>
+                    <a class="tf-3" href="#"><button class="btn-icon bgr-white hover-bg-red color-black shadow-01"><i
+                          class="fa-sharp fa-solid fa-magnifying-glass"></i></button></a>
+                  </div>
+                </div>
+                <div class="info-product">
+                  <div class="star-rate" data-rate="4"></div>
+                  <h2 class="product-name">
+                    <a href="#"><span>Pauline Barstool</span></a>
+                  </h2>
+                  <div class="card-price">
+                    <span class="current-price">560.00$</span>
+                    <span class="cost cl-text-price"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-product-1 col-6 col-md-4 col-lg-3">
+              <div class="product-item-wrap">
+                <div class="img-product-container">
+                  <a href="#">
+                    <img class="img-product transt-04-linear" src="../assets/imgs/card-shop/chair-product.jpg" alt="">
+                  </a>
+                  <div class="btn-card-product translateX-bottom-btn">
+                    <a class="tf-1" href="#"><button class="btn-icon bgr-white hover-bg-red color-black shadow-01"><i
+                          class="bi bi-bag"></i></button></a>
+                    <a class="tf-2" href="#"><button class="btn-icon bgr-white hover-bg-red color-black shadow-01"><i
+                          class="fa-regular fa-heart"></i></button></a>
+                    <a class="tf-3" href="#"><button class="btn-icon bgr-white hover-bg-red color-black shadow-01"><i
+                          class="fa-sharp fa-solid fa-magnifying-glass"></i></button></a>
+                  </div>
+                </div>
+                <div class="info-product">
+                  <div class="star-rate" data-rate="4"></div>
+                  <h2 class="product-name">
+                    <a href="#"><span>Pauline Barstool</span></a>
+                  </h2>
+                  <div class="card-price">
+                    <span class="current-price">560.00$</span>
+                    <span class="cost cl-text-price"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-product-1 col-6 col-md-4 col-lg-3">
+              <div class="product-item-wrap">
+                <div class="img-product-container">
+                  <a href="#">
+                    <img class="img-product transt-04-linear" src="../assets/imgs/card-shop/chair-product.jpg" alt="">
+                  </a>
+                  <div class="btn-card-product translateX-bottom-btn">
+                    <a class="tf-1" href="#"><button class="btn-icon bgr-white hover-bg-red color-black shadow-01"><i
+                          class="bi bi-bag"></i></button></a>
+                    <a class="tf-2" href="#"><button class="btn-icon bgr-white hover-bg-red color-black shadow-01"><i
+                          class="fa-regular fa-heart"></i></button></a>
+                    <a class="tf-3" href="#"><button class="btn-icon bgr-white hover-bg-red color-black shadow-01"><i
+                          class="fa-sharp fa-solid fa-magnifying-glass"></i></button></a>
+                  </div>
+                </div>
+                <div class="info-product">
+                  <div class="star-rate" data-rate="4"></div>
+                  <h2 class="product-name">
+                    <a href="#"><span>Pauline Barstool</span></a>
+                  </h2>
+                  <div class="card-price">
+                    <span class="current-price">560.00$</span>
+                    <span class="cost cl-text-price"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-product-1 col-6 col-md-4 col-lg-3">
+              <div class="product-item-wrap">
+                <div class="img-product-container">
+                  <a href="#">
+                    <img class="img-product transt-04-linear" src="../assets/imgs/card-shop/chair-product.jpg" alt="">
+                  </a>
+                  <div class="btn-card-product translateX-bottom-btn">
+                    <a class="tf-1" href="#"><button class="btn-icon bgr-white hover-bg-red color-black shadow-01"><i
+                          class="bi bi-bag"></i></button></a>
+                    <a class="tf-2" href="#"><button class="btn-icon bgr-white hover-bg-red color-black shadow-01"><i
+                          class="fa-regular fa-heart"></i></button></a>
+                    <a class="tf-3" href="#"><button class="btn-icon bgr-white hover-bg-red color-black shadow-01"><i
+                          class="fa-sharp fa-solid fa-magnifying-glass"></i></button></a>
+                  </div>
+                </div>
+                <div class="info-product">
+                  <div class="star-rate" data-rate="4"></div>
+                  <h2 class="product-name">
+                    <a href="#"><span>Pauline Barstool</span></a>
+                  </h2>
+                  <div class="card-price">
+                    <span class="current-price">560.00$</span>
+                    <span class="cost cl-text-price"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="products-container">
+      <div class="products">
+        <div class="product_title poppins">Related products</div>
+        <div class="container-fluid">
+          <div class="product-list row mb-5 ">
+            <div class="card-product-1 col-6 col-md-4 col-lg-3">
+              <div class="product-item-wrap">
+                <div class="img-product-container">
+                  <a href="#">
+                    <img class="img-product transt-04-linear" src="../assets/imgs/card-shop/chair-product.jpg" alt="">
+                  </a>
+                  <div class="btn-card-product translateX-bottom-btn">
+                    <a class="tf-1" href="#"><button class="btn-icon bgr-white hover-bg-red color-black shadow-01"><i
+                          class="bi bi-bag"></i></button></a>
+                    <a class="tf-2" href="#"><button class="btn-icon bgr-white hover-bg-red color-black shadow-01"><i
+                          class="fa-regular fa-heart"></i></button></a>
+                    <a class="tf-3" href="#"><button class="btn-icon bgr-white hover-bg-red color-black shadow-01"><i
+                          class="fa-sharp fa-solid fa-magnifying-glass"></i></button></a>
+                  </div>
+                </div>
+                <div class="info-product">
+                  <div class="star-rate" data-rate="4"></div>
+                  <h2 class="product-name">
+                    <a href="#"><span>Pauline Barstool</span></a>
+                  </h2>
+                  <div class="card-price">
+                    <span class="current-price">560.00$</span>
+                    <span class="cost cl-text-price"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-product-1 col-6 col-md-4 col-lg-3">
+              <div class="product-item-wrap">
+                <div class="img-product-container">
+                  <a href="#">
+                    <img class="img-product transt-04-linear" src="../assets/imgs/card-shop/chair-product.jpg" alt="">
+                  </a>
+                  <div class="btn-card-product translateX-bottom-btn">
+                    <a class="tf-1" href="#"><button class="btn-icon bgr-white hover-bg-red color-black shadow-01"><i
+                          class="bi bi-bag"></i></button></a>
+                    <a class="tf-2" href="#"><button class="btn-icon bgr-white hover-bg-red color-black shadow-01"><i
+                          class="fa-regular fa-heart"></i></button></a>
+                    <a class="tf-3" href="#"><button class="btn-icon bgr-white hover-bg-red color-black shadow-01"><i
+                          class="fa-sharp fa-solid fa-magnifying-glass"></i></button></a>
+                  </div>
+                </div>
+                <div class="info-product">
+                  <div class="star-rate" data-rate="4"></div>
+                  <h2 class="product-name">
+                    <a href="#"><span>Pauline Barstool</span></a>
+                  </h2>
+                  <div class="card-price">
+                    <span class="current-price">560.00$</span>
+                    <span class="cost cl-text-price"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-product-1 col-6 col-md-4 col-lg-3">
+              <div class="product-item-wrap">
+                <div class="img-product-container">
+                  <a href="#">
+                    <img class="img-product transt-04-linear" src="../assets/imgs/card-shop/chair-product.jpg" alt="">
+                  </a>
+                  <div class="btn-card-product translateX-bottom-btn">
+                    <a class="tf-1" href="#"><button class="btn-icon bgr-white hover-bg-red color-black shadow-01"><i
+                          class="bi bi-bag"></i></button></a>
+                    <a class="tf-2" href="#"><button class="btn-icon bgr-white hover-bg-red color-black shadow-01"><i
+                          class="fa-regular fa-heart"></i></button></a>
+                    <a class="tf-3" href="#"><button class="btn-icon bgr-white hover-bg-red color-black shadow-01"><i
+                          class="fa-sharp fa-solid fa-magnifying-glass"></i></button></a>
+                  </div>
+                </div>
+                <div class="info-product">
+                  <div class="star-rate" data-rate="4"></div>
+                  <h2 class="product-name">
+                    <a href="#"><span>Pauline Barstool</span></a>
+                  </h2>
+                  <div class="card-price">
+                    <span class="current-price">560.00$</span>
+                    <span class="cost cl-text-price"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-product-1 col-6 col-md-4 col-lg-3">
+              <div class="product-item-wrap">
+                <div class="img-product-container">
+                  <a href="#">
+                    <img class="img-product transt-04-linear" src="../assets/imgs/card-shop/chair-product.jpg" alt="">
+                  </a>
+                  <div class="btn-card-product translateX-bottom-btn">
+                    <a class="tf-1" href="#"><button class="btn-icon bgr-white hover-bg-red color-black shadow-01"><i
+                          class="bi bi-bag"></i></button></a>
+                    <a class="tf-2" href="#"><button class="btn-icon bgr-white hover-bg-red color-black shadow-01"><i
+                          class="fa-regular fa-heart"></i></button></a>
+                    <a class="tf-3" href="#"><button class="btn-icon bgr-white hover-bg-red color-black shadow-01"><i
+                          class="fa-sharp fa-solid fa-magnifying-glass"></i></button></a>
+                  </div>
+                </div>
+                <div class="info-product">
+                  <div class="star-rate" data-rate="4"></div>
+                  <h2 class="product-name">
+                    <a href="#"><span>Pauline Barstool</span></a>
+                  </h2>
+                  <div class="card-price">
+                    <span class="current-price">560.00$</span>
+                    <span class="cost cl-text-price"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer">
+        <div class="footer-wrap">
+          <div class="wrap-content-foot">
+            <div class="footer-column">
+              <div class="icon-title-foot">
+                <img class="icon-coston-style" src="../assets/imgs/icons/coston-icon.svg" alt="">
+              </div>
+              <div class="sub-text-foot">
+                <span class="sub-text-style">Nam quam nunc, blandit vel, luctus pulvinar, <br> hendrerit id, lorem.
+                  Donec elit libero,</span>
+              </div>
+              <div class="element-widget-foot">
+                <h2>FOLLOW US</h2>
+              </div>
+              <div class="social-media-foot">
+                <a href="#">
+                  <button class="btn-icon bgr-black hover-bg-red br-50"><i class="fa-brands fa-twitter"></i>
+                  </button>
+                </a>
+                <a href="#">
+                  <button class="btn-icon bgr-black hover-bg-red br-50"><i class="fab fa-dribbble"></i></button>
+                </a>
+                <a href="#">
+                  <button class="btn-icon bgr-black hover-bg-red br-50"><i class="fab fa-behance"></i></i>
+                  </button>
+                </a>
+                <a href="#">
+                  <button class="btn-icon bgr-black hover-bg-red br-50"><i class="fab fa-instagram"></i></button>
+                </a>
+              </div>
+            </div>
+            <div class="footer-column">
+              <div class="title-footer-column">
+                <h4>ABOUT US</h4>
+              </div>
+              <div class="horizontal-line">
+                <div class="line"></div>
+              </div>
+              <div class="element-content-container">
+                <ul>
+                  <li>
+                    <a href="#"><span class="sub-text-style">Our Story</span></a>
+                  </li>
+                  <li>
+                    <a href="#"><span class="sub-text-style">Visit Melbourne Studio</span></a>
+                  </li>
+                  <li>
+                    <a href="#"><span class="sub-text-style">Visit Sydney Studio</span></a>
+                  </li>
+                  <li>
+                    <a href="#"><span class="sub-text-style">Design</span></a>
+                  </li>
+                  <li>
+                    <a href="#"><span class="sub-text-style">How Brosa Works</span></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="footer-column help-res">
+              <div class="title-footer-column">
+                <h4>HELP</h4>
+              </div>
+              <div class="horizontal-line">
+                <div class="line"></div>
+              </div>
+              <div class="element-content-container">
+                <ul>
+                  <li>
+                    <a href="#"><span class="sub-text-style">Contact & FAQ</span></a>
+                  </li>
+                  <li>
+                    <a href="#"><span class="sub-text-style">Track Your Order</span></a>
+                  </li>
+                  <li>
+                    <a href="#"><span class="sub-text-style">Refunds</span></a>
+                  </li>
+                  <li>
+                    <a href="#"><span class="sub-text-style">Shipping & Delivery</span></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="footer-column">
+              <div class="title-footer-column">
+                <h4>SERVICES</h4>
+              </div>
+              <div class="horizontal-line">
+                <div class="line"></div>
+              </div>
+              <div class="element-content-container">
+                <ul>
+                  <li>
+                    <a href="#"><span class=" sub-text-style">Need Interior Design Help?</span></a>
+                  </li>
+                  <li>
+                    <a href="#"><span class=" sub-text-style">Free Swatches</span></a>
+                  </li>
+                  <li>
+                    <a href="#"><span class="sub-text-style">Support Centre</span></a>
+                  </li>
+                  <li>
+                    <a href="#"><span class="sub-text-style">Assembly Guides</span></a>
+                  </li>
+                  <li>
+                    <a href="#"><span class="sub-text-style">Trade Programme</span></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="foot-end">
+        <div class="wrap-foot-end">
+          <div class="foot-end-column">
+            <div class="wrap-content">
+              <div class="col-foot-left">
+                <h2>Copyright @ 2022 Caston. All rights reserved.</h2>
+              </div>
+            </div>
+          </div>
+          <div class="foot-end-column">
+            <div class="wrap-content">
+              <div class="col-foot-right">
+                <img src="../assets/imgs/card-shop/payment.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script type="module" src="../assets/js/index.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+  <script src="https://kit.fontawesome.com/1516c7732a.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

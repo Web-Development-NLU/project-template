@@ -1,6 +1,6 @@
 .filter-product {
   position: relative;
-  max-width: 1470px;
+  max-width: 1500px;
 }
 
 .filter-boards {
@@ -39,10 +39,27 @@
   background: transparent;
 }
 
+.filter-boards_category-options .options-item input[type="radio"] {
+  display: none;
+}
+
 .filter-boards_category-options .options-item.active button {
   color: var(--ctb-09);
 }
 
+.filter-results {
+  display: flex;
+  flex-flow: wrap;
+}
+
+.filter-results > div {
+  margin-right: 20px;
+}
+
+.filter-results .filter-result-item .result-item_clear {
+  cursor: pointer;
+  margin-left: 5px;
+}
 
 @media screen and (min-width: 992px) {
   .filter-boards_category-options {
