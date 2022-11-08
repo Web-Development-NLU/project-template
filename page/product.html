@@ -26,6 +26,16 @@
         <div class="row">
           <div id="menu_btn-responsive" class="menu_btn-responsive col"><i class="fa-solid fa-bars"></i></div>
           <ul class="menu_list col">
+            <li class="menu_list_item menu_list-search hidden_item">
+              <form action="">
+                <div class="input-line">
+                  <input type="email" placeholder="Search your keywords">
+                  <button type="submit">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                  </button>
+                </div>
+              </form>
+            </li>
             <li class="menu_list_item"><a href="#">Home</a></li>
             <li class="menu_list_item"><a href="#">Products</a></li>
             <li class="menu_list_item"><a href="#">About Us</a> </li>
@@ -39,9 +49,12 @@
             <h2><a class="poppins" href="#">FURNITURE</a></h2>
           </div>
           <ul class="menu_action col">
-            <li class="menu_search menu_action_item"><a href="#">
-                <button class="btn-icon bgr-red br-50 color-white"><i class="fa-solid fa-magnifying-glass"></i></button>
-              </a></li>
+            <li class="menu_search menu_action_item">
+              <a href="#">
+                <button class="btn-icon bgr-red br-50 color-white" id="triggerSearchBar"><i
+                    class="fa-solid fa-magnifying-glass"></i></button>
+              </a>
+            </li>
 
             <li class="menu_login menu_action_item">
               <button class="btn-icon-cb-text bd-white-02 rounded-pill">
@@ -64,6 +77,16 @@
         </div>
       </div>
     </menu>
+    <div class="search-bar container-fluid" id="menu-search-bar">
+      <form action="">
+        <div class="input-line menu_list-search">
+          <input type="email" placeholder="Search your keywords">
+          <button type="submit">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </div>
+      </form>
+    </div>
     <div class="head-bottom-breadcrumb">
       <div aria-label="breadcrumb">
         <ol class="breadcrumb color-black">

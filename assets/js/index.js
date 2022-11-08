@@ -9,3 +9,4 @@ import "./rate-point.js"
 import "./cl-text-price.js";
 import "./wishlist.js";
 import "./show-password.js";
+import "./upload.js"

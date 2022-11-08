@@ -21,6 +21,11 @@
   background-color: var(--cta-02);
 }
 
+.bgr-blue {
+  background: var(--ctd-02);
+  color: var(--cta-01);
+}
+
 .bgr-gray {
   background-color: var(--cta-05);
 }

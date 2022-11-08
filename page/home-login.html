@@ -20,8 +20,8 @@
 </head>
 
 <body>
+  <div id="home-container">
 
-  <div id="shop-container">
     <header>
       <menu class="head_top">
         <div class="container-fluid container_menu">
@@ -59,10 +59,9 @@
               </li>
 
               <li class="menu_login menu_action_item">
-                <button class="btn-icon-cb-text bd-white-02 rounded-pill">
+                <button class="btn-icon br-50 bgr-blue">
                   <a href="#" class="color-white">
-                    <i class="fa-regular fa-user action-icon"></i>
-                    <span class="btn-content poppins">Login</span>
+                    <i class="bi bi-person"></i>
                   </a>
                 </button>
               </li>
@@ -89,137 +88,71 @@
           </div>
         </form>
       </div>
-      <div class="head_bottom-shop">
-        <div class="head_bottom-content container-fluid">
-          <div class="head_bottom-title color-white">
-            <h1 class="poppins">The Shop</h1>
-          </div>
-
-          <div class="container-slide">
-            <div class="control-slide color-white">
-              <div class="control-slide-action prev"><i class="fa-solid fa-angle-left"></i></div>
-              <div class="control-slide-action next"><i class="fa-solid fa-angle-right"></i></div>
+      <div class="head_bottom">
+        <div id="slider" class="head_bottom-slider">
+          <div class="slider_item">
+            <img src="https://caston.familab.net/wp-content/uploads/2021/11/h1_slide_1.jpg" alt="">
+            <div class="slider_item-content">
+              <div class="slider_item-title color-white">NEW ARRIVALS</div>
+              <div class="slider_item-head color-white poppins">Design your home</div>
+              <div class="slider_item-action">
+                <a href="#"><button class="btn-text bgr-white hover-bg-trans">Shop now</button></a>
+              </div>
             </div>
-            <div class="category-slide">
-              <div class="card-category">
-                <div class="img-category">
-                  <a href="#"><img src="../assets/imgs/card-shop/chair-category.jpg" alt="Not found"></a>
-                </div>
-                <h5><a href="#">CHAIR</a></h5>
-              </div>
-              <div class="card-category">
-                <div class="img-category">
-                  <a href="#"><img src="../assets/imgs/card-shop/chair-category.jpg" alt="Not found"></a>
-                </div>
-                <h5><a href="#">CHAIR</a></h5>
-              </div>
-              <div class="card-category">
-                <div class="img-category">
-                  <a href="#"><img src="../assets/imgs/card-shop/chair-category.jpg" alt="Not found"></a>
-                </div>
-                <h5><a href="#">CHAIR</a></h5>
-              </div>
-              <div class="card-category">
-                <div class="img-category">
-                  <a href="#"><img src="../assets/imgs/card-shop/chair-category.jpg" alt="Not found"></a>
-                </div>
-                <h5><a href="#">CHAIR</a></h5>
-              </div>
-              <div class="card-category">
-                <div class="img-category">
-                  <a href="#"><img src="../assets/imgs/card-shop/chair-category.jpg" alt="Not found"></a>
-                </div>
-                <h5><a href="#">CHAIR</a></h5>
-              </div>
-              <div class="card-category">
-                <div class="img-category">
-                  <a href="#"><img src="../assets/imgs/card-shop/chair-category.jpg" alt="Not found"></a>
-                </div>
-                <h5><a href="#">CHAIR</a></h5>
+          </div>
+          <div class="slider_item">
+            <img src="https://caston.familab.net/wp-content/uploads/2021/12/h3_slide_2.jpg" alt="">
+            <div class="slider_item-content">
+              <div class="slider_item-title color-white">NEW ARRIVALS</div>
+              <div class="slider_item-head color-white poppins">Design your home</div>
+              <div class="slider_item-action">
+                <a href="#"><button class="btn-text bgr-white hover-bg-trans">Shop now</button></a>
               </div>
             </div>
           </div>
         </div>
       </div>
     </header>
-    <div class="filter-product container-fluid mt-3">
-      <div class="filter-btn" data-toggle="collapse" data-target="#collapseExample">
-        <button class="btn-icon bgr-red br-50 color-white"><i class="bi bi-funnel"></i></button>
-        <button class="filter-btn_text color-black">FILTER</button>
+
+    <div class="container_card-shop mt-md-5 mb-md-5 mt-sm-3 mb-sm-3">
+      <div class="card-shop">
+        <a href="#">
+          <img src="../assets/imgs/card-shop/banner-shop-1.jpg">
+        </a>
+        <div class="card-shop_text">
+          <div class="card-shop_title poppins">Storage</div>
+          <a href="#">
+            <div class="card-shop_action hover-text-red poppins">Show now</div>
+          </a>
+        </div>
       </div>
-      <form action="">
-        <div class="filter-boards bgr-white collapse" id="collapseExample">
-          <div class="filter-boards_close hover-text-red" data-toggle="collapse" data-target="#collapseExample">
-            <i class="fa-solid fa-xmark"></i>
-            Hide Filters
-          </div>
-
-          <div class="filter-boards_categories row">
-            <div class="filter-boards_category col-12 col-lg">
-              <div class="filter-boards_category-tittle">CATEGORIES</div>
-              <div class="filter-boards_category-options">
-                <div class="options-item"><button>Bedroom <span>(4)</span></button></div>
-                <div class="options-item"><button>Chair <span>(10)</span></button></div>
-                <div class="options-item"><button>Desk <span>(6)</span></button></div>
-                <div class="options-item"><button>Homewares <span>(15)</span></button></div>
-                <div class="options-item"><button>Lighting <span>(6)</span></button></div>
-                <div class="options-item"><button>Storage <span>(5)</span></button></div>
-              </div>
-            </div>
-            <div class="filter-boards_category col-12 col-lg">
-              <div class="filter-boards_category-tittle">COLOR</div>
-              <div class="filter-boards_category-options">
-                <button class="button-color col" style="--color: red"></button>
-                <button class="button-color col" style="--color: red"></button>
-                <button class="button-color col" style="--color: red"></button>
-                <button class="button-color col" style="--color: red"></button>
-                <button class="button-color col" style="--color: red"></button>
-                <button class="button-color col" style="--color: red"></button>
-                <button class="button-color col" style="--color: red"></button>
-                <button class="button-color col" style="--color: red"></button>
-              </div>
-            </div>
-            <div class="filter-boards_category col-12 col-lg">
-              <div class="filter-boards_category-tittle">PATTERN</div>
-              <div class="filter-boards_category-options">
-                <div class="options-item"><button name="pattern">Plastic <span>(6)</span></button></div>
-                <div class="options-item"><button name="pattern">Plastic <span>(6)</span></button></div>
-                <div class="options-item"><button name="pattern">Plastic <span>(6)</span></button></div>
-                <div class="options-item"><button name="pattern">Plywood <span>(15)</span></button></div>
-                <div class="options-item"><button name="pattern">Wood <span>(6)</span></button></div>
-              </div>
-            </div>
-            <div class="filter-boards_category col-12 col-lg">
-              <div class="filter-boards_category-tittle">TAGS</div>
-              <div class="filter-boards_category-options">
-                <div class="options-item"><button>Fabic <span>(4)</span></button></div>
-                <div class="options-item"><button>Leather <span>(10)</span></button></div>
-                <div class="options-item"><button>Plastic <span>(6)</span></button></div>
-                <div class="options-item"><button>Plywood <span>(15)</span></button></div>
-                <div class="options-item"><button>Wood <span>(6)</span></button></div>
-              </div>
-            </div>
-            <div class="filter-boards_category col-12 col-lg">
-              <div class="filter-boards_category-tittle">FILTER BY PRICE</div>
-              <div class="filter-boards_category-options"></div>
-            </div>
-          </div>
+      <div class="card-shop">
+        <a href="#">
+          <img src="../assets/imgs/card-shop/banner-shop-1.jpg">
+        </a>
+        <div class="card-shop_text">
+          <h2 class="card-shop_title poppins">Storage</h2>
+          <a href="#">
+            <div class="card-shop_action">Show now</div>
+          </a>
         </div>
-
-        <div class="filter-results mt-3 ml-2">
-          <div id="clear-filter"><a href="#" class="color-black hover-text-red"><i class="fa-solid fa-xmark"></i>
-              clear</a></div>
-          <div class="filter-result-item">
-            <span class="result-item_type">Category:</span>
-            <button class="result-item_content btn-sm bgr-red hover-bg-black result-item_clear">Bedroom <i
-                class="fa-solid fa-xmark"></i></button>
-          </div>
+      </div>
+      <div class="card-shop">
+        <a href="#">
+          <img src="../assets/imgs/card-shop/banner-shop-1.jpg">
+        </a>
+        <div class="card-shop_text">
+          <h2 class="card-shop_title poppins">Storage</h2>
+          <a href="#">
+            <div class="card-shop_action">Show now</div>
+          </a>
         </div>
-      </form>
+      </div>
     </div>
 
-    <div class="products-container">
+    <div class="products-container bgr-white-02">
       <div class="products">
+        <div class="product_title poppins">New arrivvals</div>
         <div class="container-fluid">
           <div class="product-list row mb-5 ">
             <div class="card-components-2 col-6 col-md-4 col-lg-3">
@@ -440,153 +373,116 @@
             </div>
           </div>
         </div>
-        <nav aria-label="Page navigation">
-          <ul class="pagination">
-            <li class="page-item pagination-item"><a class="page-link color-black" href="#"><i
-                  class="fa-solid fa-angle-left"></i></a></li>
-            <li class="page-item pagination-item"><a class="page-link color-black pg-action" href="#">1</a></li>
-            <li class="page-item pagination-item"><a class="page-link color-black" href="#">2</a></li>
-            <li class="page-item pagination-item"><a class="page-link color-black" href="#">3</a></li>
-            <li class="page-item pagination-item"><a class="page-link color-black" href="#"><i
-                  class="fa-solid fa-angle-right"></i></a></li>
-          </ul>
-        </nav>
+      </div>
+    </div>
+    <div class="card-shop-lg-list row no-gutters">
+      <div class="card-shop-lg col-12 col-md">
+        <a href="#" class="color-white">
+          <img class="card-shop-lg_thumbnail" width="960" height="626"
+            src="https://caston.familab.net/wp-content/uploads/2021/11/h1_banner_2.jpg">
+          <div class="card-shop-lg_content">
+            <div class="card-title poppins">Light</div>
+            <div class="card-subtitle poppins">Collection</div>
+            <div class="card-line-decor bgr-white"></div>
+            <div class="card-action">
+              <a href="#"><button class="btn-text bgr-white hover-text-red poppins">SHOP NOW</button></a>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="card-shop-lg col-12 col-md">
+        <a href="#" class="color-white">
+          <img class="card-shop-lg_thumbnail"
+            src="https://caston.familab.net/wp-content/uploads/2021/11/h1_banner_3.jpg">
+          <div class="card-shop-lg_content">
+            <div class="card-title card-item poppins">Light</div>
+            <div class="card-subtitle card-item poppins">Collection</div>
+            <div class="card-line-decor bgr-white"></div>
+            <div class="card-action">
+              <a href="#"><button class="btn-text bgr-white hover-text-red poppins">SHOP NOW</button></a>
+            </div>
+          </div>
+        </a>
       </div>
     </div>
 
-    <footer>
-      <div class="footer">
-        <div class="footer-wrap">
-          <div class="wrap-content-foot">
-            <div class="footer-column">
+    <div class="slide-acttachment">
+      <div class="background-acttachment"></div>
+      <div class="slider_item-content">
+        <div class="slider_item-title color-white">NEW ARRIVALS</div>
+        <div class="slider_item-head color-white poppins">Design your home</div>
+        <div class="slider_item-action">
+          <a href="#"><button class="btn-text bgr-white hover-bg-trans">Shop now</button></a>
+        </div>
+      </div>
+      <div class="slide_mark-icon bgr-red color-white br-50">
+        <i class="bi bi-envelope"></i>
+      </div>
+    </div>
+    <div class="subscribe-section container-fluid">
+      <div class="subscribe-section_title">
+        Subscribe to get $30 off* your <br> first order
+      </div>
+      <form action="">
+        <div class="input-line">
+          <input type="email" placeholder="Your Email Address">
+          <button type="submit">SUBSCRIBE
+            <i class="fa-solid fa-chevron-right"></i>
+          </button>
+        </div>
+      </form>
+    </div>
+
+    <div class="foot-end-bgr-white foot-end ">
+      <div class="wrap-foot-end">
+        <div class="foot-end-column">
+          <div class="wrap-content">
+            <div class="col-foot-left">
               <div class="icon-title-foot">
                 <img class="icon-coston-style" src="../assets/imgs/icons/coston-icon.svg" alt="">
               </div>
-              <div class="sub-text-foot">
-                <span class="sub-text-style">Nam quam nunc, blandit vel, luctus pulvinar, <br> hendrerit id, lorem.
-                  Donec elit libero,</span>
-              </div>
-              <div class="element-widget-foot">
-                <h2>FOLLOW US</h2>
-              </div>
+            </div>
+            <div class="cpw-container">
+              <h2 class="hide-content">Copyright @ 2022 Caston. All rights reserved.</h2>
+            </div>
+          </div>
+        </div>
+        <div class="foot-end-column">
+          <div class="wrap-content">
+            <div class="col-foot-right">
+              <ul>
+                <li><a href="#"><span>Contact & FAQ</span></a></li>
+                <li><a href="#"><span>Refunds</span></a></li>
+                <li><a href="#"><span>Shipping & Delivery</span></a></li>
+              </ul>
               <div class="social-media-foot">
                 <a href="#">
                   <button class="btn-icon bgr-black hover-bg-red br-50"><i class="fa-brands fa-twitter"></i>
                   </button>
                 </a>
                 <a href="#">
-                  <button class="btn-icon bgr-black hover-bg-red br-50"><i class="fab fa-dribbble"></i></button>
+                  <button class="btn-icon bgr-black hover-bg-red br-50"><i class="fab fa-dribbble"></i>
+                  </button>
                 </a>
                 <a href="#">
                   <button class="btn-icon bgr-black hover-bg-red br-50"><i class="fab fa-behance"></i></i>
                   </button>
                 </a>
                 <a href="#">
-                  <button class="btn-icon bgr-black hover-bg-red br-50"><i class="fab fa-instagram"></i></button>
+                  <button class="btn-icon bgr-black hover-bg-red br-50"><i class="fab fa-instagram"></i>
+                  </button>
                 </a>
               </div>
             </div>
-            <div class="footer-column">
-              <div class="title-footer-column">
-                <h4>ABOUT US</h4>
-              </div>
-              <div class="horizontal-line">
-                <div class="line"></div>
-              </div>
-              <div class="element-content-container">
-                <ul>
-                  <li>
-                    <a href="#"><span class="sub-text-style">Our Story</span></a>
-                  </li>
-                  <li>
-                    <a href="#"><span class="sub-text-style">Visit Melbourne Studio</span></a>
-                  </li>
-                  <li>
-                    <a href="#"><span class="sub-text-style">Visit Sydney Studio</span></a>
-                  </li>
-                  <li>
-                    <a href="#"><span class="sub-text-style">Design</span></a>
-                  </li>
-                  <li>
-                    <a href="#"><span class="sub-text-style">How Brosa Works</span></a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="footer-column help-res">
-              <div class="title-footer-column">
-                <h4>HELP</h4>
-              </div>
-              <div class="horizontal-line">
-                <div class="line"></div>
-              </div>
-              <div class="element-content-container">
-                <ul>
-                  <li>
-                    <a href="#"><span class="sub-text-style">Contact & FAQ</span></a>
-                  </li>
-                  <li>
-                    <a href="#"><span class="sub-text-style">Track Your Order</span></a>
-                  </li>
-                  <li>
-                    <a href="#"><span class="sub-text-style">Refunds</span></a>
-                  </li>
-                  <li>
-                    <a href="#"><span class="sub-text-style">Shipping & Delivery</span></a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="footer-column">
-              <div class="title-footer-column">
-                <h4>SERVICES</h4>
-              </div>
-              <div class="horizontal-line">
-                <div class="line"></div>
-              </div>
-              <div class="element-content-container">
-                <ul>
-                  <li>
-                    <a href="#"><span class=" sub-text-style">Need Interior Design Help?</span></a>
-                  </li>
-                  <li>
-                    <a href="#"><span class=" sub-text-style">Free Swatches</span></a>
-                  </li>
-                  <li>
-                    <a href="#"><span class="sub-text-style">Support Centre</span></a>
-                  </li>
-                  <li>
-                    <a href="#"><span class="sub-text-style">Assembly Guides</span></a>
-                  </li>
-                  <li>
-                    <a href="#"><span class="sub-text-style">Trade Programme</span></a>
-                  </li>
-                </ul>
-              </div>
-            </div>
           </div>
         </div>
       </div>
-      <div class="foot-end">
-        <div class="wrap-foot-end">
-          <div class="foot-end-column">
-            <div class="wrap-content">
-              <div class="col-foot-left">
-                <h2>Copyright @ 2022 Caston. All rights reserved.</h2>
-              </div>
-            </div>
-          </div>
-          <div class="foot-end-column">
-            <div class="wrap-content">
-              <div class="col-foot-right">
-                <img src="../assets/imgs/card-shop/payment.png" alt="">
-              </div>
-            </div>
-          </div>
-        </div>
+      <div class="visible-res">
+        <h2 class="cpw-res">Copyright @ 2022 Caston. All rights reserved.</h2>
       </div>
-    </footer>
+    </div>
   </div>
+
   <script type="module" src="../assets/js/index.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
   <script src="https://kit.fontawesome.com/1516c7732a.js" crossorigin="anonymous"></script>

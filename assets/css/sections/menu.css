@@ -119,7 +119,7 @@ menu ~ .search-bar {
   background: var(--cta-01);
 }
 
-header menu ~ .display-search-bar {
+menu ~ .search-bar.display-search-bar {
   display: block;
 }
 
