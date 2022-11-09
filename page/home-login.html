@@ -44,8 +44,14 @@
               <li class="menu_list_item"><a href="#">Contact</a></li>
               <li class="menu_list_item hidden_item"><a href="#">
                   <i class="fa-regular fa-user action-icon color-red"></i>
-                  <span class="btn-content poppins">Login</span>
-                </a></li>
+                  <span class="btn-content poppins">My Account</span>
+                </a>
+              </li>
+              <li class="menu_list_item hidden_item"><a href="#">
+                <i class="fa-solid fa-right-from-bracket action-icon color-red"></i>
+                <span class="btn-content poppins">Logout</span>
+              </a>
+            </li>
             </ul>
             <div class="menu_logo col">
               <h2><a class="poppins" href="#">FURNITURE</a></h2>
@@ -59,11 +65,15 @@
               </li>
 
               <li class="menu_login menu_action_item">
-                <button class="btn-icon br-50 bgr-blue">
-                  <a href="#" class="color-white">
+                <div class="dropdown-person">
+                  <button class="btn-icon br-50 bgr-blue" data-toggle="dropdown" aria-expanded="false">
                     <i class="bi bi-person"></i>
-                  </a>
-                </button>
+                  </button>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">My Account</a>
+                    <a class="dropdown-item" href="#">Logout <span><i class="fa-solid fa-right-from-bracket"></i></span></a>
+                  </div>
+                </div>
               </li>
 
               <li class="menu_cart menu_action_item">
