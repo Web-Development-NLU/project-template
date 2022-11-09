@@ -105,8 +105,8 @@
     <section id="checkout-content" class="container-fluid mb-5">
       <div class="cart-menu">
         <div class="cart-menu_item">Shopping Cart</div>
-        <div class="cart-menu_item selected">Oder</div>
-        <div class="cart-menu_item">Payment</div>
+        <div class="cart-menu_item">Oder</div>
+        <div class="cart-menu_item selected">Payment</div>
       </div>
 
       <div class="checkout-other-action mt-5 mb-5">
@@ -119,48 +119,39 @@
 
       <form action="">
         <div class="checkout-detail row">
-          <div class="checkout-billing col-12 col-lg-8">
-            <div class="checkout-billing_title">Billing Details</div>
-            <div class="billing-name row">
-              <div class="input-secondary col">
-                <label for="ip_name">Frist Name *</label>
-                <input type="text" id="ip_name">
+          <div class="checkout-billing col-12 col-lg-5">
+            <div class="checkout-billing_title">Payment Info</div>
+
+            <div class="form-group">
+              <label for="nameOnCard">Name On Card</label>
+              <input type="text" class="form-control" id="nameOnCard">
+            </div>
+
+            <div class="form-group">
+              <label for="inputCardNumber">Card Number</label>
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <div class="input-group-text"><i class="bi bi-credit-card-2-back-fill"></i></div>
+                </div>
+                <input type="text" class="form-control" id="inputCardNumber" placeholder="Card Number">
               </div>
-              <div class="input-secondary col">
-                <label for="ip_name">Last Name *</label>
-                <input type="text" id="ip_name">
+            </div>
+            <div class="form-row">
+              <div class="col">
+                <label>Expried Date</label>
+                <input type="date" class="form-control" placeholder="Expried Date">
+              </div>
+              <div class="col">
+                <label>Expried Date</label>
+                <input type="text" class="form-control" placeholder="CVC">
               </div>
             </div>
-            <div class="input-secondary">
-              <label for="ip_name">Country *</label>
-              <input type="text" id="ip_name">
-            </div>
-            <div class="input-secondary">
-              <label for="ip_name">City/Province *</label>
-              <input type="text" id="ip_name">
-            </div>
-            <div class="input-secondary">
-              <label for="ip_name">District *</label>
-              <input type="text" id="ip_name">
-            </div>
-            <div class="input-secondary">
-              <label for="ip_name">Address *</label>
-              <input type="text" id="ip_name">
-            </div>
-            <div class="input-secondary">
-              <label for="ip_name">Phone *</label>
-              <input type="text" id="ip_name">
-            </div>
-            <div class="input-secondary">
-              <label for="ip_name">Email *</label>
-              <input type="text" id="ip_name">
-            </div>
-            <div class="checkout-additional-info">
-              <div class="checkout-additional-info_title">Additional Infomation</div>
-              <textarea class="text-area mt-4" placeholder="Additional info"></textarea>
+            <div class="form-group">
+              <label for="zipCode">ZIP/Postal Code</label>
+              <input type="text" class="form-control" id="zipCode">
             </div>
           </div>
-
+          <div class="col-12 col-lg-3"></div>
           <div class="checkout-action col-12 col-lg-4">
             <div class="checkout-carts-list">
               <div class="action-item-title poppins mb-3">PRODUCT</div>
@@ -244,7 +235,7 @@
                 </div>
               </div>
             </div>
-            <a href="#"><button class="btn-text-lg bgr-black hover-bg-red poppins">GO TO PAYMENT</button></a>
+            <a href="#"><button class="btn-text-lg bgr-black hover-bg-red poppins">PAYMENT</button></a>
           </div>
         </div>
       </form>

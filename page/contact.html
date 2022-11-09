@@ -20,9 +20,10 @@
 </head>
 
 <body>
-  <div>
+  <div id="contact-container">
+
     <header>
-      <menu class="head_top">
+      <menu class="head_top menu-trans">
         <div class="container-fluid container_menu">
           <div class="row">
             <div id="menu_btn-responsive" class="menu_btn-responsive col"><i class="fa-solid fa-bars"></i></div>
@@ -88,167 +89,117 @@
           </div>
         </form>
       </div>
+      <div class="head_bottom-map">
+        <div class="mapouter">
+          <div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no"
+              marginheight="0" marginwidth="0"
+              src="https://maps.google.com/maps?width=1920&amp;height=682&amp;hl=en&amp;q=University of Oxford&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a
+              href="https://piratebay-proxys.com/">Piratebay</a></div>
+          <style>
+            .mapouter {
+              position: relative;
+              text-align: right;
+              width: 100%;
+              height: 100%;
+            }
 
-      <div class="head-bottom-page">
-        <div class="head-page-content">
-          <h2 class="head-page-title poppins color-white">Oder</h2>
-          <div aria-label="breadcrumb">
-            <ol class="breadcrumb color-white">
-              <li class="breadcrumb-item poppins" aria-current="page"><a href="#" class="color-white">Home</a></li>
-              <li class="breadcrumb-item poppins" aria-current="page">Oder</li>
-            </ol>
-          </div>
+            .gmap_canvas {
+              overflow: hidden;
+              background: none !important;
+              width: 100%;
+              height: 100%;
+            }
+
+            .gmap_iframe {
+              height: 682px !important;
+            }
+          </style>
         </div>
       </div>
     </header>
 
-    <section id="checkout-content" class="container-fluid mb-5">
-      <div class="cart-menu">
-        <div class="cart-menu_item">Shopping Cart</div>
-        <div class="cart-menu_item selected">Oder</div>
-        <div class="cart-menu_item">Payment</div>
-      </div>
-
-      <div class="checkout-other-action mt-5 mb-5">
-        <div class="action-link">
-          <i class="fa-regular fa-user action-icon"></i>
-          RETURNING CUSTOMER?
-          <a href="#" class="action-content">CLICK HERE TO LOGIN</a>
-        </div>
-      </div>
-
-      <form action="">
-        <div class="checkout-detail row">
-          <div class="checkout-billing col-12 col-lg-8">
-            <div class="checkout-billing_title">Billing Details</div>
-            <div class="billing-name row">
-              <div class="input-secondary col">
-                <label for="ip_name">Frist Name *</label>
-                <input type="text" id="ip_name">
+    <div id="contact-content" class="container-fluid">
+      <div class="row justify-content-between">
+        <div class="contact-info col-12 col-md-4">
+          <h3 class="big_title">Contact Us</h3>
+          <span>There’s no place like home. To help you make yours perfect, our stores are open, we’re delivering as
+            normal, our online store is available 24/7, and our customer service team is ready to help you via phone and
+            Live Chat.</span>
+          <div class="main-content">
+            <div class="contact-address">
+              <div class="icon_contact">
+                <span> <i class="bi bi-geo-alt color-black"></i></span>
               </div>
-              <div class="input-secondary col">
-                <label for="ip_name">Last Name *</label>
-                <input type="text" id="ip_name">
+              <div class="container-content-contact">
+                <h3>
+                  <span class="title_contact">Address</span>
+                </h3>
+                <p class="content-contact">807 Mize Cemetery Rd, Somerset KY, 42503</p>
               </div>
             </div>
-            <div class="input-secondary">
-              <label for="ip_name">Country *</label>
-              <input type="text" id="ip_name">
+            <div class="contact-phone">
+              <div class="icon_contact">
+                <span>
+                  <i class="bi bi-telephone"></i>
+                </span>
+  
+              </div>
+              <div class="container-content-contact">
+                <h3>
+                  <span class="title_contact">Phone</span>
+                </h3>
+                <p class="content-contact">+41 71 227 76 90</p>
+              </div>
             </div>
-            <div class="input-secondary">
-              <label for="ip_name">City/Province *</label>
-              <input type="text" id="ip_name">
-            </div>
-            <div class="input-secondary">
-              <label for="ip_name">District *</label>
-              <input type="text" id="ip_name">
-            </div>
-            <div class="input-secondary">
-              <label for="ip_name">Address *</label>
-              <input type="text" id="ip_name">
-            </div>
-            <div class="input-secondary">
-              <label for="ip_name">Phone *</label>
-              <input type="text" id="ip_name">
-            </div>
-            <div class="input-secondary">
-              <label for="ip_name">Email *</label>
-              <input type="text" id="ip_name">
-            </div>
-            <div class="checkout-additional-info">
-              <div class="checkout-additional-info_title">Additional Infomation</div>
-              <textarea class="text-area mt-4" placeholder="Additional info"></textarea>
+            <div class="contact-email">
+              <div class="icon_contact">
+                <span>
+                  <i class="bi bi-envelope"></i>
+                </span>
+  
+              </div>
+              <div class="container-content-contact">
+                <h3>
+                  <span class="title_contact">Email</span>
+                </h3>
+                <p class="content-contact">sayhello@familab.net</p>
+              </div>
             </div>
           </div>
-
-          <div class="checkout-action col-12 col-lg-4">
-            <div class="checkout-carts-list">
-              <div class="action-item-title poppins mb-3">PRODUCT</div>
-              <div class="action-carts">
-                <div class="action-cart">
-                  <div class="checkout-card-product">
-                    <div class="product-info-container">
-                      <div class="img-product">
-                        <img src="../assets/imgs/card-shop/product_chair_wood.jpg" alt="">
-                      </div>
-                      <div class="product-info">
-                        <div class="product-item-name-swap">
-                          <span class="product-item-name poppins">Beetle chair</span>
-                          <strong class="product-quantity">× 1</strong>
-                        </div>
-                        <div class="material">
-                          <span class="material-color">color:</span>
-                          <span class="value-color">Beige</span>
-                          <span class="material-pattern">pattern:</span>
-                          <span class="value-pattern">Wood</span>
-                          <span class="material-size">Size:</span>
-                          <span class="value-size">Large</span>
-                        </div>
-                      </div>
+        </div>
+        <div class="send-us-email-container col-12 col-md-6">
+          <div class="header-send-us">
+            <div class="title-content-swap">
+              <span class="icon-email"><i class="bi bi-envelope"></i></span>
+              <span class="title-head poppins">Send us a message</span>
+            </div>
+          </div>
+          <div class="form-send-us-container">
+            <div class="form-send-us-swap">
+              <div class="form-container">
+                <div class="input-area">
+                  <div class="field-ip-container">
+                    <div class="ip_name-container">
+                      <input class="input-primary poppins" type="text" placeholder="Your Name *">
                     </div>
-                    <div class="product-total-cost">
-                      <span class="total-cost">200.00$</span>
+                    <div class="ip_email-container">
+                      <input class="input-primary poppins" type="text" placeholder="Your Email *">
                     </div>
                   </div>
-                  <div class="checkout-action-item">
-                    <div class="action-item-title poppins">SUBTOTAL</div>
-                    <div class="action-item-des">
-                      <div class="card-price">
-                        <span class="current-price">650.00$</span>
-                      </div>
-                    </div>
+                  <div class="field-area-container">
+                    <textarea class="text-area poppins" placeholder="Your Comment *"></textarea>
                   </div>
                 </div>
-                <div class="action-cart">
-                  <div class="checkout-card-product">
-                    <div class="product-info-container">
-                      <div class="img-product">
-                        <img src="../assets/imgs/card-shop/product_chair_wood.jpg" alt="">
-                      </div>
-                      <div class="product-info">
-                        <div class="product-item-name-swap">
-                          <span class="product-item-name poppins">Beetle chair</span>
-                          <strong class="product-quantity">× 1</strong>
-                        </div>
-                        <div class="material">
-                          <span class="material-color">color:</span>
-                          <span class="value-color">Beige</span>
-                          <span class="material-pattern">pattern:</span>
-                          <span class="value-pattern">Wood</span>
-                          <span class="material-size">Size:</span>
-                          <span class="value-size">Large</span>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="product-total-cost">
-                      <span class="total-cost">200.00$</span>
-                    </div>
-                  </div>
-                  <div class="checkout-action-item">
-                    <div class="action-item-title poppins">SUBTOTAL</div>
-                    <div class="action-item-des">
-                      <div class="card-price">
-                        <span class="current-price">650.00$</span>
-                      </div>
-                    </div>
-                  </div>
+                <div class="submit-container">
+                  <a href="#"><button class="btn-text-lg bgr-black hover-bg-red poppins">SEND A MESSAGE</button></a>
                 </div>
               </div>
             </div>
-            
-            <div class="checkout-action-item totals">
-              <div class="action-item-title poppins">TOTALS</div>
-              <div class="action-item-des">
-                <div class="card-price">
-                  <span class="current-price">650.00$</span>
-                </div>
-              </div>
-            </div>
-            <a href="#"><button class="btn-text-lg bgr-black hover-bg-red poppins">GO TO PAYMENT</button></a>
           </div>
         </div>
-      </form>
-    </section>
+      </div>
+      
+    </div>
 
     <footer>
       <div class="footer">
