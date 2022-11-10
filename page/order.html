@@ -22,11 +22,21 @@
 <body>
   <div>
     <header>
-      <menu class="head_top menu-scroll">
+      <menu class="head_top">
         <div class="container-fluid container_menu">
           <div class="row">
             <div id="menu_btn-responsive" class="menu_btn-responsive col"><i class="fa-solid fa-bars"></i></div>
             <ul class="menu_list col">
+              <li class="menu_list_item menu_list-search hidden_item">
+                <form action="">
+                  <div class="input-line">
+                    <input type="email" placeholder="Search your keywords">
+                    <button type="submit">
+                      <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                  </div>
+                </form>
+              </li>
               <li class="menu_list_item"><a href="#">Home</a></li>
               <li class="menu_list_item"><a href="#">Products</a></li>
               <li class="menu_list_item"><a href="#">About Us</a> </li>
@@ -40,10 +50,12 @@
               <h2><a class="poppins" href="#">FURNITURE</a></h2>
             </div>
             <ul class="menu_action col">
-              <li class="menu_search menu_action_item"><a href="#">
-                  <button class="btn-icon bgr-red br-50 color-white"><i
+              <li class="menu_search menu_action_item">
+                <a href="#">
+                  <button class="btn-icon bgr-red br-50 color-white" id="triggerSearchBar"><i
                       class="fa-solid fa-magnifying-glass"></i></button>
-                </a></li>
+                </a>
+              </li>
 
               <li class="menu_login menu_action_item">
                 <button class="btn-icon-cb-text bd-white-02 rounded-pill">
@@ -66,6 +78,16 @@
           </div>
         </div>
       </menu>
+      <div class="search-bar container-fluid" id="menu-search-bar">
+        <form action="">
+          <div class="input-line menu_list-search">
+            <input type="email" placeholder="Search your keywords">
+            <button type="submit">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </div>
+        </form>
+      </div>
 
       <div class="head-bottom-page">
         <div class="head-page-content">
@@ -144,18 +166,28 @@
               <div class="action-item-title poppins mb-3">PRODUCT</div>
               <div class="action-carts">
                 <div class="action-cart">
-                  <div class="checkout-cart">
-                    <div class="checkout-cart-info">
-                      <img src="https://caston.familab.net/wp-content/uploads/2021/09/product_drop-2-420x420.jpg" alt="">
-                      <div class="checkout-cart-name">
-                        Baniversary Salutes Chair x <span class="checkout-cart-number">1</span>
+                  <div class="checkout-card-product">
+                    <div class="product-info-container">
+                      <div class="img-product">
+                        <img src="../assets/imgs/card-shop/product_chair_wood.jpg" alt="">
+                      </div>
+                      <div class="product-info">
+                        <div class="product-item-name-swap">
+                          <span class="product-item-name poppins">Beetle chair</span>
+                          <strong class="product-quantity">× 1</strong>
+                        </div>
+                        <div class="material">
+                          <span class="material-color">color:</span>
+                          <span class="value-color">Beige</span>
+                          <span class="material-pattern">pattern:</span>
+                          <span class="value-pattern">Wood</span>
+                          <span class="material-size">Size:</span>
+                          <span class="value-size">Large</span>
+                        </div>
                       </div>
                     </div>
-  
-                    <div class="checkout-cart-price">
-                      <div class="card-price">
-                        <span class="current-price">650.00$</span>
-                      </div>
+                    <div class="product-total-cost">
+                      <span class="total-cost">200.00$</span>
                     </div>
                   </div>
                   <div class="checkout-action-item">
@@ -168,18 +200,28 @@
                   </div>
                 </div>
                 <div class="action-cart">
-                  <div class="checkout-cart">
-                    <div class="checkout-cart-info">
-                      <img src="https://caston.familab.net/wp-content/uploads/2021/09/product_drop-2-420x420.jpg" alt="">
-                      <div class="checkout-cart-name">
-                        Baniversary Salutes Chair x <span class="checkout-cart-number">1</span>
+                  <div class="checkout-card-product">
+                    <div class="product-info-container">
+                      <div class="img-product">
+                        <img src="../assets/imgs/card-shop/product_chair_wood.jpg" alt="">
+                      </div>
+                      <div class="product-info">
+                        <div class="product-item-name-swap">
+                          <span class="product-item-name poppins">Beetle chair</span>
+                          <strong class="product-quantity">× 1</strong>
+                        </div>
+                        <div class="material">
+                          <span class="material-color">color:</span>
+                          <span class="value-color">Beige</span>
+                          <span class="material-pattern">pattern:</span>
+                          <span class="value-pattern">Wood</span>
+                          <span class="material-size">Size:</span>
+                          <span class="value-size">Large</span>
+                        </div>
                       </div>
                     </div>
-  
-                    <div class="checkout-cart-price">
-                      <div class="card-price">
-                        <span class="current-price">650.00$</span>
-                      </div>
+                    <div class="product-total-cost">
+                      <span class="total-cost">200.00$</span>
                     </div>
                   </div>
                   <div class="checkout-action-item">

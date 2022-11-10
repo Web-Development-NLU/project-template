@@ -81,7 +81,11 @@ menu .menu_list .hidden_item {
 }
 
 .menu-white, .scroll_menu {
-  background: var(--cta-01)
+  background: var(--cta-01) !important;
+}
+
+.menu-trans {
+  background: rgba(0, 0, 0, 0.418)  
 }
 
 .menu-white a:hover, .scroll_menu a:hover {
@@ -115,7 +119,7 @@ menu ~ .search-bar {
   background: var(--cta-01);
 }
 
-header menu ~ .display-search-bar {
+menu ~ .search-bar.display-search-bar {
   display: block;
 }
 
