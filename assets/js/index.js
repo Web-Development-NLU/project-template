@@ -8,4 +8,5 @@ import "./menu-search.js"
 import "./rate-point.js"
 import "./cl-text-price.js";
 import "./wishlist.js";
+import "./filter-price-bar.js";
 import "./show-password.js";
