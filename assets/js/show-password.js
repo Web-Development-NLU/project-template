@@ -4,7 +4,6 @@ var getIconShowPass = document.getElementById("show-password");
 
 if (getShowPass) {
   getShowPass.addEventListener("click", showPassword);
-
   function showPassword() {
     if (getIpPass.getAttribute("type") == "password") {
       getIpPass.setAttribute("type", "text");

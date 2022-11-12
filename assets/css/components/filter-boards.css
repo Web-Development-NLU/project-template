@@ -4,11 +4,11 @@
 }
 
 .filter-boards {
-  width: 100%;
+  max-width: max-content;
   padding: 30px;
   position: absolute;
   border: 1px solid var(--cta-09);
-  top: 70px;
+  top: 50px;
   background: var(--cta-01);
   z-index: 1;
 }
@@ -35,7 +35,7 @@
   border-bottom: 1px solid var(--cta-02);
 }
 
-.filter-boards_category-options .options-item button {
+.filter-boards_category-options.btn-groups .options-item button {
   background: transparent;
 }
 
@@ -82,6 +82,7 @@
   
   .filter-boards_category-options .options-item {
     border-bottom: 1px solid var(--cta-04);
+    padding-left: 20px;
   }
   .filter-boards .filter-boards_category {
     margin-bottom: 40px;
