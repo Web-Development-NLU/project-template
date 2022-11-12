@@ -91,159 +91,36 @@
 
       <div class="head-bottom-page">
         <div class="head-page-content">
-          <h2 class="head-page-title poppins color-white">Oder</h2>
+          <h2 class="head-page-title poppins color-white">Wishlist</h2>
           <div aria-label="breadcrumb">
             <ol class="breadcrumb color-white">
               <li class="breadcrumb-item poppins" aria-current="page"><a href="#" class="color-white">Home</a></li>
-              <li class="breadcrumb-item poppins" aria-current="page">Oder</li>
+              <li class="breadcrumb-item poppins" aria-current="page">Wishlist</li>
             </ol>
           </div>
         </div>
       </div>
     </header>
 
-    <section id="checkout-content" class="container-fluid mb-5">
-      <div class="cart-menu">
-        <div class="cart-menu_item">Shopping Cart</div>
-        <div class="cart-menu_item">Oder</div>
-        <div class="cart-menu_item selected">Payment</div>
-      </div>
-
-      <div class="checkout-other-action mt-5 mb-5">
-        <div class="action-link">
-          <i class="fa-regular fa-user action-icon"></i>
-          RETURNING CUSTOMER?
-          <a href="#" class="action-content">CLICK HERE TO LOGIN</a>
-        </div>
-      </div>
-
-      <form action="">
-        <div class="checkout-detail row">
-          <div class="checkout-billing col-12 col-lg-5">
-            <div class="checkout-billing_title">Payment Info</div>
-
-            <div class="checkbox">
-              <input type="checkbox" id="check_box">
-              <label for="check_box">After Credit</label>
-            </div>
-
-            <div class="form-group">
-              <label for="nameOnCard">Name On Card</label>
-              <input type="text" class="form-control" id="nameOnCard">
-            </div>
-
-            <div class="form-group">
-              <label for="inputCardNumber">Card Number</label>
-              <div class="input-group">
-                <div class="input-group-prepend">
-                  <div class="input-group-text"><i class="bi bi-credit-card-2-back-fill"></i></div>
-                </div>
-                <input type="text" class="form-control" id="inputCardNumber" placeholder="Card Number">
+    <section id="wishlist-content" class="container-fluid mt-5 mb-5">
+      <div class="card-store-whishlist-container">
+        <div class="card-store-swap">
+          <div class="container-content-swap">
+            <div class="content-area">
+              <div class="header-cards-whishlist">
+                <h2 class="poppins">Default wishlist</h2>
               </div>
-            </div>
-            <div class="form-row">
-              <div class="col">
-                <label>Expried Date</label>
-                <input type="date" class="form-control" placeholder="Expried Date">
+              <div class="text-content">
+                <i class="bi bi-card-list"></i>
+                <p class="poppins">Your Wishlist is currently empty.</p>
               </div>
-              <div class="col">
-                <label>Expried Date</label>
-                <input type="text" class="form-control" placeholder="CVC">
+              <div class="btn-return-shop">
+                <span><a class="btn-text-lg bgr-black hover-bg-red" href="#">RETURN TO SHOP</a></span>
               </div>
-            </div>
-            <div class="form-group">
-              <label for="zipCode">ZIP/Postal Code</label>
-              <input type="text" class="form-control" id="zipCode">
             </div>
           </div>
-          <div class="col-12 col-lg-3"></div>
-          <div class="checkout-action col-12 col-lg-4">
-            <div class="checkout-carts-list">
-              <div class="action-item-title poppins mb-3">PRODUCT</div>
-              <div class="action-carts">
-                <div class="action-cart">
-                  <div class="checkout-card-product">
-                    <div class="product-info-container">
-                      <div class="img-product">
-                        <img src="../assets/imgs/card-shop/product_chair_wood.jpg" alt="">
-                      </div>
-                      <div class="product-info">
-                        <div class="product-item-name-swap">
-                          <span class="product-item-name poppins">Beetle chair</span>
-                          <strong class="product-quantity">× 1</strong>
-                        </div>
-                        <div class="material">
-                          <span class="material-color">color:</span>
-                          <span class="value-color">Beige</span>
-                          <span class="material-pattern">pattern:</span>
-                          <span class="value-pattern">Wood</span>
-                          <span class="material-size">Size:</span>
-                          <span class="value-size">Large</span>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="product-total-cost">
-                      <span class="total-cost">200.00$</span>
-                    </div>
-                  </div>
-                  <div class="checkout-action-item">
-                    <div class="action-item-title poppins">SUBTOTAL</div>
-                    <div class="action-item-des">
-                      <div class="card-price">
-                        <span class="current-price">650.00$</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="action-cart">
-                  <div class="checkout-card-product">
-                    <div class="product-info-container">
-                      <div class="img-product">
-                        <img src="../assets/imgs/card-shop/product_chair_wood.jpg" alt="">
-                      </div>
-                      <div class="product-info">
-                        <div class="product-item-name-swap">
-                          <span class="product-item-name poppins">Beetle chair</span>
-                          <strong class="product-quantity">× 1</strong>
-                        </div>
-                        <div class="material">
-                          <span class="material-color">color:</span>
-                          <span class="value-color">Beige</span>
-                          <span class="material-pattern">pattern:</span>
-                          <span class="value-pattern">Wood</span>
-                          <span class="material-size">Size:</span>
-                          <span class="value-size">Large</span>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="product-total-cost">
-                      <span class="total-cost">200.00$</span>
-                    </div>
-                  </div>
-                  <div class="checkout-action-item">
-                    <div class="action-item-title poppins">SUBTOTAL</div>
-                    <div class="action-item-des">
-                      <div class="card-price">
-                        <span class="current-price">650.00$</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            
-            <div class="checkout-action-item totals">
-              <div class="action-item-title poppins">TOTALS</div>
-              <div class="action-item-des">
-                <div class="card-price">
-                  <span class="current-price">650.00$</span>
-                </div>
-              </div>
-            </div>
-            <a href="#"><button class="btn-text-lg bgr-black hover-bg-red poppins">PAYMENT</button></a>
-          </div>
         </div>
-      </form>
+      </div>
     </section>
 
     <footer>
@@ -361,20 +238,20 @@
       </div>
       <div class="foot-end">
         <div class="wrap-foot-end">
-          <div class="foot-end-column">
-            <div class="wrap-content">
-              <div class="col-foot-left">
-                <h2>Copyright @ 2022 Caston. All rights reserved.</h2>
-              </div>
+            <div class="foot-end-column">
+                <div class="wrap-content">
+                    <div class="col-foot-left">
+                        <h2>Copyright @ 2022 Caston. All rights reserved.</h2>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="foot-end-column">
-            <div class="wrap-content">
-              <div class="col-foot-right">
-                <img src="../assets/imgs/card-shop/payment.png" alt="">
-              </div>
+            <div class="foot-end-column">
+                <div class="wrap-content">
+                    <div class="col-foot-right">
+                        <img src="../assets/imgs/card-shop/payment.png" alt="">
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
       </div>
     </footer>
